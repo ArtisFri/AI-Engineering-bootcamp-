@@ -1,0 +1,42 @@
+{
+  "embedding_model": "nomic-embed-text",
+  "embedding_dimensions": 768,
+  "extraction_mode": "layout",
+  "chunk_size_characters": 800,
+  "chunk_overlap_characters": 150,
+  "documents": [
+    {
+      "source": "company_handbook.pdf",
+      "pages": 17,
+      "chunks": 54
+    },
+    {
+      "source": "meeting_notes.pdf",
+      "pages": 9,
+      "chunks": 33
+    },
+    {
+      "source": "product_guide.pdf",
+      "pages": 30,
+      "chunks": 82
+    },
+    {
+      "source": "quarterly_report_q1_2026.pdf",
+      "pages": 14,
+      "chunks": 37
+    },
+    {
+      "source": "security_policy.pdf",
+      "pages": 15,
+      "chunks": 55
+    }
+  ],
+  "total_pages": 85,
+  "total_chunks": 261,
+  "collection_count": 261,
+  "chunk_length_characters": {
+    "min": 17,
+    "mean": 574.1,
+    "max": 797
+  }
+}

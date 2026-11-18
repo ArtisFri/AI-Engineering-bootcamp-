@@ -1,0 +1,584 @@
+===== page 1 =====
+NovaTech Solutions -- Quarterly
+Business Report
+
+Q1 2026 (January -- March)
+
+Classification: Internal -- Board & Leadership Distribution Only
+
+Prepared by: Office of the CFO | Approved by: Sarah Chen, CEO
+
+Report Date: April 14, 2026
+
+1. Executive Summary
+
+NovaTech Solutions delivered a strong first quarter in 2026, continuing the
+growth trajectory established in the second half of 2025. Annual Recurring
+Revenue (ARR) reached EUR 18.2 million at quarter-end, representing a 23%
+year-over-year increase from EUR 14.8 million at the close of Q1 2025. Quarterly
+recognized revenue came in at EUR 4.8 million, exceeding our internal forecast of
+EUR 4.6 million by approximately 4%.
+
+Several factors contributed to this outperformance. The launch of ProjectHub
+v3.2 in February, which introduced our first AI-powered features, drove
+meaningful upsell activity among existing Enterprise accounts. Net Revenue
+Retention (NRR) improved to 112%, up from 108% in Q4 2025, reflecting both
+expansion revenue and a modest reduction in churn. The opening of our Lisbon
+engineering office in January proceeded on schedule and under budget, adding
+22 staff members who are already contributing to the Insight product roadmap.
+
+However, the quarter was not without challenges. Three Enterprise accounts
+totaling EUR 420,000 in ARR have flagged potential non-renewal for Q2 and Q3.
+The competitive landscape shifted meaningfully when Planwise, a well-funded
+competitor, launched AI-driven project analytics features in late March. These
+developments require focused attention in the coming quarter.
+
+Overall, we enter Q2 2026 in a position of strength, with a qualified sales pipeline
+of EUR 2.3 million, a growing team, and a product roadmap that positions us well
+for the remainder of the fiscal year.
+
+===== page 2 =====
+2. Financial Performance
+
+2.1 Revenue Overview
+
+ Metric  Q1  Q4  Q1  QoQ  YoY
+  2026  2025  2025  Change  Change
+
+ Quarterly Revenue  EUR  EUR  EUR
+  4.8M  4.5M  3.7M  +6.7%  +29.7%
+
+ Annual Recurring  EUR  EUR  EUR
+ Revenue (ARR)  18.2M  17.1M  14.8M  +6.4%  +23.0%
+
+ Average Revenue Per  EUR  EUR  EUR
+ Account (ARPA)  21,488  20,612  18,750  +4.2%  +14.6%
+
+ Net Revenue
+ Retention (NRR)  112%  108%  105%  +4pp  +7pp
+
+Subscription revenue accounted for 91% of total quarterly revenue (EUR 4.37M),
+with the remaining 9% (EUR 0.43M) derived from professional services
+engagements, primarily onboarding and custom integration work for Enterprise-
+tier customers.
+
+2.2 Revenue by Product Line
+
+ Product  Q1 2026 Revenue  Share of Total  YoY Growth
+
+ ProjectHub  EUR 3.36M  70%  +26%
+
+ Insight  EUR 1.20M  25%  +31%
+
+ Professional Services  EUR 0.24M  5%  +12%
+
+ProjectHub remains our primary revenue driver, though Insight continues to grow
+at a faster rate as analytics adoption increases among existing ProjectHub
+customers. The attach rate for Insight among ProjectHub Enterprise customers
+rose to 68%, up from 54% a year ago.
+
+2.3 Expense Summary
+
+Total operating expenses for Q1 2026 were EUR 4.52M, yielding an operating
+margin of approximately 5.8%. This is down from 8.1% in Q4 2025, driven
+primarily by one-time costs associated with the Lisbon office opening (EUR 185K
+
+===== page 3 =====
+in setup and relocation costs) and increased headcount-related expenses from 38
+new hires during the quarter.
+
+  Category  Q1 2026  % of Revenue
+
+  Personnel (Salaries, Benefits, Equity)  EUR 2.88M  60.0%
+
+  Infrastructure & Hosting  EUR 0.53M  11.0%
+
+  Sales & Marketing  EUR 0.58M  12.1%
+
+  General & Administrative  EUR 0.34M  7.1%
+
+  Lisbon Office Setup (One-Time)  EUR 0.19M  3.9%
+
+  Total Operating Expenses  EUR 4.52M  94.2%
+
+  Operating Income  EUR 0.28M  5.8%
+
+We expect operating margins to recover to the 9-11% range in Q2 as Lisbon
+setup costs are fully absorbed and new hires reach productivity targets.
+
+2.4 Cash Position
+
+Cash and cash equivalents at quarter-end stood at EUR 6.1M, down from EUR
+6.8M at the end of Q4 2025. The decrease reflects the Lisbon office investment
+and accelerated hiring. At the current burn rate, NovaTech maintains
+approximately 16 months of runway without additional revenue growth, though
+our trajectory suggests continued cash generation. No additional fundraising is
+planned for 2026.
+
+3. Customer Metrics
+
+3.1 Customer Base Overview
+
+  Metric  Q1 2026  Q4 2025  Q1 2025
+
+  Total Customers  847  821  714
+
+  Enterprise Tier  52  48  39
+
+  Professional Tier  283  271  241
+
+  Starter Tier  512  502  434
+
+  New Customers (Q1)  41  37  29
+
+===== page 4 =====
+Metric  Q1 2026  Q4 2025  Q1 2025
+
+ Churned Customers (Q1)  15  12  11
+
+Net customer additions for the quarter were 26, bringing the total base to 847.
+Customer acquisition was strongest in the Professional tier (+17 net), which
+continues to be the primary entry point for mid-market companies.
+
+3.2 Revenue Concentration by Tier
+
+ Tier  Accounts  Revenue Contribution  Avg. Contract Value
+
+ Enterprise  52 (6.1%)  EUR 2.93M (61.0%)  EUR 56,346
+
+ Professional  283 (33.4%)  EUR 1.39M (29.0%)  EUR 4,912
+
+ Starter  512 (60.5%)  EUR 0.48M (10.0%)  EUR 938
+
+Enterprise-tier concentration remains a point of attention. While 52 accounts
+contributing 61% of revenue reflects healthy per-account economics, it also
+means that the loss of any single Enterprise customer has a material impact. Our
+top 10 customers alone represent 28% of total ARR.
+
+3.3 Churn and Retention
+
+Quarterly gross churn rate was 3.2%, a slight improvement from 3.5% in Q4
+2025. Annualized, this projects to approximately 12.4%, which is within industry
+benchmarks for B2B SaaS but above our internal target of 10%.
+
+Churn was concentrated in the Starter tier (11 of 15 churned accounts), where
+customers tend to have lower switching costs and less deeply integrated
+workflows. Enterprise churn was zero for the fifth consecutive quarter, though
+three accounts have been flagged as at-risk for upcoming renewals (see Section
+7, Risk Factors).
+
+Logo retention (customer count basis) stood at 98.2% for the quarter. Dollar-
+based net retention of 112% reflects meaningful expansion revenue, primarily
+driven by seat-count growth within existing accounts and upsells to the Insight
+product.
+
+3.4 Notable Customer Wins
+
+  • Meridian Logistics Group (Enterprise): New logo, EUR 89K ACV. Replaced
+  a legacy project tracking tool across their 600-person operations division.
+  Won after a competitive evaluation against Planwise and Monday.com.
+
+===== page 5 =====
+• Krauss Engineering GmbH (Enterprise): Expansion from Professional to
+  Enterprise tier, ACV increased from EUR 14K to EUR 62K. Added Insight
+  analytics across all three of their German offices.
+  • Finova Capital Partners (Professional): New logo, EUR 8.2K ACV. Referred
+  by existing customer Bergmann Wealth Advisors. Signals growing traction in
+  the financial services vertical.
+  • Nordic Health Alliance (Professional to Enterprise upgrade): ACV moved
+  from EUR 11K to EUR 48K after pilot program for Insight dashboards proved
+  successful across their hospital network spanning Denmark and Sweden.
+
+4. Product Milestones
+
+4.1 ProjectHub v3.2
+
+ProjectHub v3.2 was released on February 12, 2026, representing our most
+significant product update in over a year. Key features included:
+
+  • AI Task Prioritization Engine: Uses machine learning models to analyze
+  historical project data and recommend task prioritization. Available to
+  Professional and Enterprise tiers. Early adoption has been strong, with 34%
+  of eligible accounts activating the feature within the first six weeks.
+  • Smart Dependency Mapping: Automatically detects and visualizes task
+  dependencies based on project descriptions and historical patterns.
+  Reduces manual setup time for complex projects by an estimated 40%.
+  • Enhanced Gantt View: Rebuilt Gantt chart component with improved
+  performance (3x faster rendering for projects with 500+ tasks) and new
+  drag-and-drop rescheduling capabilities.
+  • Webhook API v2: Expanded integration framework supporting bi-
+  directional sync with 14 additional third-party tools, including Jira,
+  Salesforce, and SAP.
+
+Customer feedback on v3.2 has been overwhelmingly positive. Net Promoter
+Score for ProjectHub improved from 42 to 51 in post-launch surveys conducted in
+March. The AI Task Prioritization Engine has been cited in three Enterprise upsell
+conversations as a deciding factor.
+
+===== page 6 =====
+4.2 Insight Updates
+
+Insight received two minor releases during Q1 (v2.7.1 and v2.7.2) focused on:
+
+  • Custom Dashboard Builder: A drag-and-drop interface allowing users to
+  construct personalized analytics dashboards without requiring administrator
+  access. This was the number-one feature request from the 2025 customer
+  survey, with 187 unique requests logged.
+  • Improved Data Export: Support for scheduled PDF and CSV exports with
+  configurable filters, enabling automated reporting workflows.
+  • Performance Improvements: Query execution time reduced by 25% on
+  average through database indexing optimizations and query plan caching.
+
+4.3 Platform and Infrastructure
+
+  • Migrated 60% of backend services to Kubernetes (target: 100% by Q3
+  2026), reducing deployment times from 45 minutes to under 8 minutes.
+  • Achieved 99.97% uptime across all production services in Q1, exceeding
+  our SLA commitment of 99.9%.
+  • Completed SOC 2 Type II audit renewal with zero findings, maintaining our
+  compliance posture for regulated-industry customers.
+
+4.4 Product Roadmap -- Upcoming
+
+The following major initiatives are planned for the remainder of 2026:
+
+ Initiative  Target Quarter  Status
+
+ ProjectHub v3.3 (Advanced Reporting)  Q2 2026  In development
+
+ Insight v3.0 (Predictive Analytics)  Q2 2026  In development
+
+ NovaTech Copilot (AI Assistant)  Q3 2026  Design phase
+
+ ProjectHub Mobile App (iOS/Android)  Q3 2026  Design phase
+
+ Insight Real-Time Streaming  Q4 2026  Planning
+
+NovaTech Copilot is an AI-powered conversational assistant designed to
+operate across both ProjectHub and Insight. It will enable users to query project
+status, generate reports, create tasks, and receive proactive recommendations
+through natural language interaction. The Copilot initiative is being led by a
+dedicated 8-person team in the Lisbon office, with an initial internal alpha
+targeted for July 2026 and customer beta planned for September 2026.
+
+===== page 7 =====
+Estimated development investment for 2026 is EUR 1.2M, including
+infrastructure costs for hosting the underlying language models.
+
+5. Sales and Pipeline
+
+5.1 Q1 Sales Performance
+
+The sales team closed EUR 1.9M in new Annual Contract Value (ACV) during Q1,
+against a target of EUR 1.7M (112% attainment). This was driven by strong
+Enterprise-tier performance, where the team closed 6 new Enterprise deals
+averaging EUR 58K ACV.
+
+  Segment  New ACV Closed  Target  Attainment
+
+  Enterprise  EUR 1.04M  EUR 0.90M  116%
+
+  Professional  EUR 0.62M  EUR 0.58M  107%
+
+  Starter  EUR 0.24M  EUR 0.22M  109%
+
+  Total  EUR 1.90M  EUR 1.70M  112%
+
+5.2 Q2 Pipeline
+
+The qualified pipeline entering Q2 stands at EUR 2.3M, distributed as follows:
+
+  Stage  Value  Deal Count  Avg. Days in Stage
+
+  Discovery  EUR 0.48M  14  18
+
+  Evaluation  EUR 0.72M  11  32
+
+  Proposal  EUR 0.64M  7  21
+
+  Negotiation  EUR 0.46M  4  14
+
+  Total Qualified Pipeline  EUR 2.30M  36  --
+
+Assuming a historical stage-weighted conversion rate of 38%, we project EUR
+0.87M in new ACV closings for Q2, which would put us on track for our full-year
+new business target of EUR 7.2M.
+
+===== page 8 =====
+Three high-value opportunities in the pipeline deserve special mention:
+
+  1. Oesterreich Bahn AG (Austrian rail operator): EUR 210K ACV opportunity
+  for ProjectHub Enterprise plus Insight, currently in Proposal stage. Decision
+  expected by end of May.
+  2. Delacroix Media Group (French media conglomerate): EUR 145K ACV, in
+  Evaluation stage. Competitive situation with Planwise and Asana.
+  3. Baltic Trade Consortium: EUR 92K ACV, multi-entity deal spanning
+  Estonia, Latvia, and Lithuania. In Negotiation stage, expected close in April.
+
+5.3 Channel Partnerships
+
+Our reseller program, launched in Q3 2025, contributed EUR 0.31M in ACV during
+Q1 through four active channel partners. We signed two additional partners in
+Q1: TechBridge Consulting (Nordics) and Avantis Group (Benelux), bringing the
+total partner count to six. Channel-sourced pipeline for Q2 is EUR 0.44M.
+
+6. People and Organization
+
+6.1 Headcount Summary
+
+NovaTech Solutions ended Q1 2026 with 412 full-time employees, up from 374 at
+the end of Q4 2025. We hired 38 new team members during the quarter against
+a target of 35.
+
+  Department  Headcount (Q1 End)  Q1 Hires  % of Total
+
+  Engineering  156  18  37.9%
+
+  Product & Design  34  4  8.3%
+
+  Sales  62  6  15.0%
+
+  Customer Success  48  3  11.7%
+
+  Marketing  29  2  7.0%
+
+  General & Administrative  38  1  9.2%
+
+  People Operations (HR)  18  1  4.4%
+
+  Finance  15  1  3.6%
+
+  Legal & Compliance  12  2  2.9%
+
+  Total  412  38  100%
+
+===== page 9 =====
+6.2 Headcount by Office Location
+
+ Office  Headcount  Departments Present
+
+ Munich HQ  298  All departments
+
+ Lisbon  22  Engineering (18), Product & Design (4)
+
+ Austin  68  Sales (28), Customer Success (22), Marketing(18)
+
+ Remote (DACH
+ region)  24  Various
+
+The Lisbon office opened on January 15, 2026, in the Parque das Nacoes business
+district. Initial staffing focused on backend engineering and product design roles
+supporting the Insight product line and the NovaTech Copilot initiative. The office
+has capacity for up to 40 employees, and we plan to grow the Lisbon team to 35
+by year-end.
+
+6.3 Key Hires
+
+  • Dr. Sofia Almeida, VP of AI & Machine Learning (Lisbon). Joined February 3
+  from OutSystems. Leading the NovaTech Copilot initiative and the AI Task
+  Prioritization team.
+  • Marcus Lindgren, Senior Director of Enterprise Sales (Munich). Joined
+  January 20 from SAP. Responsible for DACH Enterprise accounts above EUR
+  50K ACV.
+  • Priya Sharma, Head of Data Engineering (Munich). Joined March 1 from
+  Celonis. Overseeing the data infrastructure modernization program
+  supporting Insight v3.0.
+
+6.4 Employee Engagement
+
+The Q1 employee engagement survey (conducted in March, 89% response rate)
+showed an overall engagement score of 78/100, stable compared to Q4 2025.
+Areas of strength included team collaboration (84/100) and manager
+effectiveness (81/100). Areas for improvement included career development
+pathways (69/100) and cross-office communication (66/100), the latter likely
+reflecting growing pains from the Lisbon office addition.
+
+Voluntary attrition in Q1 was 2.1% (quarterly) or approximately 8.4% annualized,
+below the tech industry average of 13%. Six of the nine voluntary departures
+were in engineering roles, which we are monitoring closely.
+
+===== page 10 =====
+7. Risk Factors
+
+7.1 Competitive Threat: Planwise
+
+Planwise, a venture-backed competitor (Series B, USD 45M raised), launched
+"Planwise Intelligence" on March 22, 2026. This feature set includes AI-driven
+project forecasting, automated resource allocation, and natural language project
+querying -- capabilities that overlap significantly with our ProjectHub AI features
+and our planned NovaTech Copilot.
+
+Assessment: Planwise's AI features are currently less mature than our AI Task
+Prioritization Engine based on our competitive analysis, but their marketing has
+been aggressive and effective. We have already encountered Planwise in two
+Enterprise evaluations in Q1 where they were not previously present. We lost one
+Professional-tier prospect (EUR 6.5K ACV) to Planwise in March.
+
+Mitigation: Accelerate the ProjectHub v3.3 release to include additional AI
+capabilities. Increase competitive battle card resources for the sales team.
+Commission a third-party analyst comparison report.
+
+7.2 Enterprise Renewal Risk
+
+Three Enterprise accounts with renewals in Q2-Q3 2026 have been flagged as at-
+risk:
+
+ Account  ARR  RenewalDate  Risk Factor
+
+ Gruber  EUR
+ Manufacturing  178K  June 2026  Sponsor departure; new CTOevaluating alternatives
+
+ Rheinland Utilities  EUR
+ AG  148K  July 2026  Budget pressure; exploringdowngrade to Professional tier
+
+ Alpen Logistics  EUR94K  May 2026  Low adoption (32% seat utilization);internal tool preference
+
+Total at-risk ARR: EUR 420K (2.3% of total ARR).
+
+Customer Success has initiated executive-level engagement for all three
+accounts. Gruber Manufacturing has been assigned a dedicated solutions
+architect to support the new CTO's evaluation process. Rheinland Utilities is
+being offered a 12-month commitment at a 10% discount in exchange for
+maintaining Enterprise-tier service levels. Alpen Logistics has been enrolled in
+
+===== page 11 =====
+our adoption acceleration program with weekly check-ins and customized
+training sessions.
+
+7.3 Engineering Capacity
+
+With three major product initiatives in progress simultaneously (ProjectHub v3.3,
+Insight v3.0, and NovaTech Copilot), engineering capacity is stretched. Sprint
+velocity across teams declined 8% in March compared to January, which the VP
+of Engineering attributes to onboarding overhead from new hires and context-
+switching between projects.
+
+Mitigation: Implement dedicated project teams with minimal cross-assignment.
+Pause non-critical maintenance work in Q2. Evaluate contract engineering
+augmentation for the Kubernetes migration workstream.
+
+7.4 Regulatory
+
+The EU AI Act implementation timeline continues to evolve. Our AI Task
+Prioritization Engine and the planned NovaTech Copilot will likely fall under
+"limited risk" classification, requiring transparency obligations (users must be
+informed they are interacting with AI-generated recommendations). Legal &
+Compliance is tracking requirements and has budgeted EUR 85K for compliance
+implementation in H2 2026.
+
+8. Strategic Priorities for Q2 2026
+
+Based on Q1 performance and the risk factors outlined above, the leadership
+team has aligned on the following priorities for Q2:
+
+  1. Protect Enterprise Revenue Base: Dedicated executive engagement for
+  the three at-risk accounts. Target: retain at least EUR 300K of the EUR 420K
+  at-risk ARR.
+
+  2. Accelerate AI Differentiation: Ship ProjectHub v3.3 with expanded AI
+  capabilities by end of May. Begin closed beta recruitment for NovaTech
+  Copilot. Target: 15 beta commitments from existing Enterprise customers.
+
+  3. Scale Lisbon Office: Hire 8-10 additional engineers in Lisbon by end of
+  Q2. Establish Lisbon as the center of excellence for AI/ML development.
+
+  4. Pipeline Conversion: Convert EUR 2.3M qualified pipeline at or above the
+  historical 38% conversion rate. Target: EUR 0.9M in new ACV for Q2.
+
+===== page 12 =====
+5. Operational Efficiency: Complete Kubernetes migration to 85% of
+  services. Reduce average customer onboarding time from 21 days to 14
+  days.
+
+9. Board Requests
+
+Management respectfully requests the Board's input on the following items:
+
+  1. Competitive Response Budget: Approval for an additional EUR 150K in
+  Q2 marketing spend to counter Planwise's market entry, specifically for
+  analyst relations, competitive content, and targeted digital campaigns.
+
+  2. Lisbon Office Expansion: Approval to sign a lease extension securing
+  additional floor space in the Parque das Nacoes building, enabling growth to
+  40 seats. Estimated incremental annual lease cost: EUR 120K.
+
+  3. AI Infrastructure Investment: Authorization to establish a dedicated GPU
+  compute environment for NovaTech Copilot development and deployment.
+  Estimated Q2-Q3 cost: EUR 280K. This investment is critical to maintaining
+  our AI development velocity and avoiding dependency on third-party API
+  providers for production model serving.
+
+Appendix A: Q1 2026 Financial Statements
+Summary
+
+Detailed financial statements are provided under separate cover by the Finance
+department.
+
+ Line Item  Q1 2026 (EUR)
+
+ Subscription Revenue  4,370,000
+
+ Professional Services Revenue  240,000
+
+ Other Revenue  190,000
+
+ Total Revenue  4,800,000
+
+ Cost of Revenue  (1,056,000)
+
+ Gross Profit  3,744,000
+
+ Gross Margin  78.0%
+
+===== page 13 =====
+Line Item  Q1 2026 (EUR)
+
+  Research & Development  (1,680,000)
+
+  Sales & Marketing  (1,152,000)
+
+  General & Administrative  (632,000)
+
+  Total Operating Expenses  (3,464,000)
+
+  Operating Income  280,000
+
+  Operating Margin  5.8%
+
+Appendix B: Key Performance Indicators
+Dashboard
+
+  KPI  Q1 2026  Target  Status
+
+  ARR  EUR 18.2M  EUR 17.5M  Above target
+
+  ARR Growth (YoY)  23%  20%  Above target
+
+  Net Revenue Retention  112%  110%  Above target
+
+  Gross Churn (Quarterly)  3.2%  2.5%  Below target
+
+  New ACV  EUR 1.9M  EUR 1.7M  Above target
+
+  Customer Count  847  830  Above target
+
+  NPS (ProjectHub)  51  50  On target
+
+  NPS (Insight)  46  48  Below target
+
+  Employee Headcount  412  409  On target
+
+  Employee Engagement  78/100  80/100  Below target
+
+  Platform Uptime  99.97%  99.9%  Above target
+
+  CAC Payback (months)  14  15  Above target
+
+  LTV/CAC Ratio  4.8x  4.5x  Above target
+
+This report is confidential and intended for internal distribution to the NovaTech
+Solutions Board of Directors and senior leadership team. Do not distribute
+externally.
+
+===== page 14 =====
+Next quarterly report: Q2 2026, scheduled for publication July 14, 2026.

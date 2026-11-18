@@ -1,0 +1,199 @@
+[
+  {
+    "id": "q01",
+    "question": "What is the annual price per user for the Professional tier?",
+    "expected_answer": "The Professional tier costs 66 EUR per user per month when billed annually (79 EUR per user per month when billed monthly).",
+    "source_document": "product_guide.pdf",
+    "source_pages": [10],
+    "difficulty": "easy",
+    "type": "factual"
+  },
+  {
+    "id": "q02",
+    "question": "What uptime SLA does the Enterprise tier guarantee?",
+    "expected_answer": "The Enterprise tier guarantees 99.95% uptime, which allows a maximum of about 21 minutes of downtime per month.",
+    "source_document": "product_guide.pdf",
+    "source_pages": [13, 14],
+    "difficulty": "easy",
+    "type": "factual"
+  },
+  {
+    "id": "q03",
+    "question": "How long is the free trial, and what are its limits?",
+    "expected_answer": "The free trial lasts 14 days and includes full Professional-tier features. No credit card is required. Trial workspaces are limited to 10 users and 5 GB of storage.",
+    "source_document": "product_guide.pdf",
+    "source_pages": [11],
+    "difficulty": "easy",
+    "type": "factual"
+  },
+  {
+    "id": "q04",
+    "question": "What is the response time for critical issues on the Professional tier?",
+    "expected_answer": "The Professional tier has a 1 hour response time for critical (service down) issues.",
+    "source_document": "product_guide.pdf",
+    "source_pages": [14],
+    "difficulty": "easy",
+    "type": "factual"
+  },
+  {
+    "id": "q05",
+    "question": "How many days of paid time off do full-time employees receive per year?",
+    "expected_answer": "Full-time employees receive 25 days of paid time off per calendar year, in addition to public holidays observed at their office location. Part-time employees receive PTO pro rata.",
+    "source_document": "company_handbook.pdf",
+    "source_pages": [5],
+    "difficulty": "easy",
+    "type": "factual"
+  },
+  {
+    "id": "q06",
+    "question": "Compare the Professional and Enterprise support tiers.",
+    "expected_answer": "Professional has support during extended business hours (06:00-22:00 CET, Monday to Friday), email support, live chat during business hours, and a 1 hour response time for critical issues. Enterprise has 24/7 support including live chat and phone, a dedicated support manager, and a 15 minute response time for critical issues.",
+    "source_document": "product_guide.pdf",
+    "source_pages": [14, 28],
+    "difficulty": "medium",
+    "type": "comparison"
+  },
+  {
+    "id": "q07",
+    "question": "How do the Enterprise and Professional tiers compare in number of accounts, revenue contribution and average contract value?",
+    "expected_answer": "Enterprise has 52 accounts (6.1%) contributing EUR 2.93M (61.0% of revenue), with an average contract value of EUR 56,346. Professional has 283 accounts (33.4%) contributing EUR 1.39M (29.0%), with an average contract value of EUR 4,912.",
+    "source_document": "quarterly_report_q1_2026.pdf",
+    "source_pages": [4],
+    "difficulty": "medium",
+    "type": "comparison"
+  },
+  {
+    "id": "q08",
+    "question": "What does the AI Task Prioritization Engine do, which tiers can use it, and how well has it been adopted?",
+    "expected_answer": "It uses machine learning models to analyze historical project data and recommend task prioritization. It is available to the Professional and Enterprise tiers. 34% of eligible accounts activated it within the first six weeks.",
+    "source_document": "quarterly_report_q1_2026.pdf",
+    "source_pages": [5],
+    "difficulty": "medium",
+    "type": "synthesis"
+  },
+  {
+    "id": "q09",
+    "question": "How many employees does NovaTech have?",
+    "expected_answer": "The documents give different figures for different dates. The employee handbook and the product guide say approximately 400. The January 15, 2026 leadership meeting notes say 396 as of January 1. The Q1 2026 report says 412 full-time employees at the end of Q1 (up from 374 at the end of Q4 2025, which does not match the 396 figure). The most recent figure is 412.",
+    "source_document": "company_handbook.pdf",
+    "source_pages": [1],
+    "additional_sources": [
+      {"document": "product_guide.pdf", "pages": [2]},
+      {"document": "meeting_notes.pdf", "pages": [1]},
+      {"document": "quarterly_report_q1_2026.pdf", "pages": [8]}
+    ],
+    "difficulty": "medium",
+    "type": "multi_document"
+  },
+  {
+    "id": "q10",
+    "question": "What security awareness training must employees complete, and when?",
+    "expected_answer": "The security policy requires all employees to complete Information Security Awareness training within 30 days of joining and annually thereafter; employees with access to Confidential or Restricted data must also complete the Advanced Data Handling module, and access is suspended if training is not completed on time. The February 12, 2026 leadership meeting also approved a mandate for annual 4-hour online training with quarterly phishing simulations, to be completed within 30 days of onboarding.",
+    "source_document": "security_policy.pdf",
+    "source_pages": [14],
+    "additional_sources": [
+      {"document": "meeting_notes.pdf", "pages": [4, 5]}
+    ],
+    "difficulty": "medium",
+    "type": "multi_document"
+  },
+  {
+    "id": "q11",
+    "question": "What are the acknowledgment times for P1, P2, P3 and P4 security incidents?",
+    "expected_answer": "P1 (critical) incidents must be acknowledged within 15 minutes of detection, P2 (high) within 1 hour, P3 (medium) within 4 hours, and P4 (low) within 24 hours.",
+    "source_document": "security_policy.pdf",
+    "source_pages": [6, 7],
+    "difficulty": "medium",
+    "type": "synthesis"
+  },
+  {
+    "id": "q12",
+    "question": "How much does a dedicated support manager cost for an Enterprise customer?",
+    "expected_answer": "The product guide is inconsistent. Section 5.3 lists a dedicated support manager as a 2,000 EUR per month add-on for Enterprise only, while the support sections say Enterprise customers receive a dedicated support manager as part of their support. A good answer notes the conflict instead of picking one.",
+    "source_document": "product_guide.pdf",
+    "source_pages": [11, 14, 28],
+    "difficulty": "hard",
+    "type": "conflict"
+  },
+  {
+    "id": "q13",
+    "question": "How often does the Jira integration sync for Starter customers?",
+    "expected_answer": "The guide says the Jira integration is available on all tiers, but it gives sync frequencies only for Professional (every 10 minutes) and Enterprise (every 2 minutes). The Starter frequency is not stated.",
+    "source_document": "product_guide.pdf",
+    "source_pages": [20],
+    "difficulty": "hard",
+    "type": "partially_answerable"
+  },
+  {
+    "id": "q14",
+    "question": "What service credit does a Professional customer receive if uptime for the month is 99.5%?",
+    "expected_answer": "A Professional customer receives a 10% service credit, because 99.5% falls in the 98.0%-99.89% band. Credits are applied to the next billing cycle and cannot exceed 30% of the monthly fee.",
+    "source_document": "product_guide.pdf",
+    "source_pages": [14],
+    "difficulty": "hard",
+    "type": "table_reasoning"
+  },
+  {
+    "id": "q15",
+    "question": "When was ProjectHub v3.2 released?",
+    "expected_answer": "The documents conflict. The Q1 2026 report says v3.2 was released on February 12, 2026, while the leadership meeting notes (the meeting held on February 12) say it shipped on January 28, two weeks behind the original schedule. A good answer notes the conflict.",
+    "source_document": "quarterly_report_q1_2026.pdf",
+    "source_pages": [5],
+    "additional_sources": [
+      {"document": "meeting_notes.pdf", "pages": [3]}
+    ],
+    "difficulty": "hard",
+    "type": "conflict"
+  },
+  {
+    "id": "q16",
+    "question": "What is the maximum number of remote work days per week?",
+    "expected_answer": "The employee handbook (effective January 1, 2026) allows up to 3 remote days per week with manager approval (1 day during the six-month probation). At the March 5, 2026 leadership meeting the policy was updated to up to 4 remote days per week, effective Q3 2026, with Tuesday as the mandatory in-office day. So the limit is currently 3 days and becomes 4 from Q3 2026.",
+    "source_document": "company_handbook.pdf",
+    "source_pages": [4],
+    "additional_sources": [
+      {"document": "meeting_notes.pdf", "pages": [6, 7]}
+    ],
+    "difficulty": "hard",
+    "type": "conflict"
+  },
+  {
+    "id": "q17",
+    "question": "How often must employees change their passwords?",
+    "expected_answer": "The employee handbook says every 90 days (with a minimum of 14 characters). At the March 5, 2026 leadership meeting, rotation for employee user accounts was extended to 180 days, effective immediately, while infrastructure credentials stay on 90 days. The handbook does not reflect the change. A good answer notes both.",
+    "source_document": "company_handbook.pdf",
+    "source_pages": [14],
+    "additional_sources": [
+      {"document": "meeting_notes.pdf", "pages": [7, 8]}
+    ],
+    "difficulty": "hard",
+    "type": "conflict"
+  },
+  {
+    "id": "q18",
+    "question": "Does NovaTech offer a native mobile app for iOS and Android?",
+    "expected_answer": "No mobile app is described as currently available. The Q1 2026 report's roadmap lists a ProjectHub Mobile App (iOS/Android) targeted for Q3 2026, currently in the design phase.",
+    "source_document": "quarterly_report_q1_2026.pdf",
+    "source_pages": [6],
+    "difficulty": "hard",
+    "type": "partially_answerable"
+  },
+  {
+    "id": "q19",
+    "question": "What is the company's position on remote work for contractors?",
+    "expected_answer": "The documents do not contain information about contractor remote work policies. The remote work policy in the handbook refers to employees only.",
+    "source_document": null,
+    "source_pages": [],
+    "difficulty": "hard",
+    "type": "unanswerable"
+  },
+  {
+    "id": "q20",
+    "question": "What is the company's dress code?",
+    "expected_answer": "The documents do not contain information about a dress code.",
+    "source_document": null,
+    "source_pages": [],
+    "difficulty": "hard",
+    "type": "unanswerable"
+  }
+]

@@ -1,0 +1,727 @@
+===== page 1 =====
+NovaTech Solutions — Employee
+Handbook
+
+Version 4.2 — Effective January 1, 2026 Human Resources Department
+Last Updated: January 15, 2026
+
+Table of Contents
+
+  1. Welcome and Company Overview
+  2. Mission, Vision, and Values
+  3. Office Locations and Working Hours
+  4. Remote and Hybrid Work Policy
+  5. Leave and Time-Off Policy
+  6. Expense and Travel Policy
+  7. Onboarding Process
+  8. Performance Management
+  9. Professional Development
+ 10. Code of Conduct
+ 11. Information Technology Policies
+ 12. Data Protection and Confidentiality
+ 13. Health and Safety
+ 14. Grievance and Disciplinary Procedures
+ 15. Handbook Acknowledgment
+
+1. Welcome and Company Overview
+
+Welcome to NovaTech Solutions. Founded in 2017 in Munich, Germany, NovaTech
+Solutions has grown from a small startup into a mid-size B2B SaaS company with
+approximately 400 employees across three offices. We build project management
+and analytics tools that help over 800 customers streamline their operations and
+make data-driven decisions.
+
+Our flagship products — NovaTech ProjectHub (project and portfolio
+management) and NovaTech Insight (business analytics and reporting) — serve
+clients in manufacturing, financial services, logistics, and the public sector. In
+
+===== page 2 =====
+fiscal year 2025, NovaTech Solutions achieved annual recurring revenue of
+approximately €17 million.
+
+This handbook outlines the policies, benefits, and expectations that apply to all
+NovaTech Solutions employees regardless of location or role. It supplements but
+does not replace your individual employment contract. In the event of a conflict
+between this handbook and your employment contract, the terms of the
+employment contract shall prevail.
+
+Please read this handbook carefully and direct any questions to your manager or
+to the Human Resources team at hr@novatech-solutions.com.
+
+2. Mission, Vision, and Values
+
+Mission
+
+To empower organizations with intelligent project management and analytics
+tools that turn complexity into clarity.
+
+Vision
+
+By 2030, NovaTech Solutions aims to be the leading European B2B SaaS provider
+for integrated project intelligence, serving 10,000 enterprise customers
+worldwide.
+
+Core Values
+
+ Value  Description
+
+ Customer  We start with the customer problem and work backwards. Every
+ Obsession  feature, process, and decision is measured against customer
+  value.
+
+ Radical  We share context openly — roadmaps, financials, challenges.
+ Transparency  Information asymmetry slows teams down.
+
+ Engineering  We write code we are proud of. We invest in testing,
+ Excellence  documentation, and code review because sustainable velocity
+  matters more than speed.
+
+ Inclusive  Diverse teams build better products. We actively seek
+ Collaboration  perspectives different from our own and create an environment
+  where everyone can contribute fully.
+
+===== page 3 =====
+Value  Description
+
+ Ownership  We act like owners, not renters. If something is broken, we fix it
+ Mentality  — even if it is not in our job description.
+
+All employees are expected to embody these values in their daily work. Values
+alignment is a formal component of performance evaluations (see Section 8).
+
+3. Office Locations and Working Hours
+
+Office Locations
+
+NovaTech Solutions operates from three offices:
+
+ Location  Address  Function  Employees
+
+ Munich,  Leopoldstraße 120,  Headquarters,
+ Germany  80802 Munich  Engineering, Product,  ~220
+ (HQ)  Finance, HR
+
+ Lisbon,  Avenida da Liberdade  Engineering, Customer
+ Portugal  245, 1250-143 Lisbon  Success, Design  ~110
+
+ Austin,  401 Congress Avenue,  Sales, Marketing,
+ Texas, USA  Suite 1400, Austin, TX  Customer Success  ~70
+  78701  (Americas)
+
+Standard Working Hours
+
+NovaTech Solutions operates on a flexible schedule model. The standard work
+week is 40 hours (38.5 hours for employees on German contracts). All employees
+must be available during the core collaboration window of 10:00–15:00 CET
+(Central European Time) on working days, unless otherwise agreed with their
+manager. Outside these core hours, employees may arrange their schedule to
+suit personal preferences and local requirements.
+
+Employees in the Austin office should note that 10:00–15:00 CET corresponds to
+03:00–08:00 CST. A modified core window of 09:00–14:00 CST applies to Austin-
+based employees who do not regularly collaborate with European teams. Austin
+employees on cross-regional teams should negotiate availability with their
+manager.
+
+===== page 4 =====
+4. Remote and Hybrid Work Policy
+
+NovaTech Solutions supports hybrid work arrangements. Employees in eligible
+roles may work remotely for up to three (3) days per week, subject to
+manager approval.
+
+Eligibility
+
+All employees who have completed their probationary period (six months) are
+eligible for hybrid work unless their role requires physical presence (e.g., office
+management, facilities, on-site IT support). Employees still within their
+probationary period may work remotely for up to one (1) day per week with
+manager approval.
+
+Approval Process
+
+  1. The employee submits a hybrid work request through the NovaHR portal,
+  specifying their preferred remote days.
+  2. The manager reviews the request within five (5) business days, considering
+  team coverage needs, collaboration requirements, and role suitability.
+  3. Approved arrangements are documented in NovaHR and reviewed
+  quarterly.
+
+Requirements for Remote Work
+
+  • Employees must have a stable internet connection (minimum 25 Mbps
+  download, 5 Mbps upload).
+  • A dedicated, ergonomic workspace is recommended. NovaTech offers a one-
+  time home office setup allowance of €500 for employees approved for
+  regular remote work (see Section 6).
+  • Employees must be reachable via Slack and email during core collaboration
+  hours.
+  • All remote work must comply with IT security policies (see Section 11),
+  including the use of the company VPN for accessing internal systems.
+
+Location Restrictions
+
+Remote work must be performed from the employee's registered country of
+employment. Working from a different country for more than five (5)
+consecutive business days requires prior approval from HR due to tax and
+social security implications. Requests for extended cross-border remote work
+must be submitted at least four (4) weeks in advance.
+
+===== page 5 =====
+Team Days
+
+Each team must designate at least one (1) mandatory in-office day per
+week for collaborative work. These team days are set by the team lead and
+communicated at the start of each quarter.
+
+5. Leave and Time-Off Policy
+
+Annual Leave (Paid Time Off)
+
+All full-time employees receive twenty-five (25) days of paid time off (PTO) per
+calendar year, in addition to public holidays observed at their respective office
+location. Part-time employees receive PTO on a pro-rata basis.
+
+PTO accrues monthly (2.083 days per month). Employees may use PTO before it
+has fully accrued, subject to manager approval. The maximum negative PTO
+balance permitted is five (5) days.
+
+Carryover: Unused PTO may be carried over to the following calendar year, up
+to a maximum of five (5) days. Carried-over days must be used by March 31
+of the following year. Any unused carried-over days beyond this date will be
+forfeited unless prohibited by local employment law.
+
+PTO requests should be submitted via NovaHR at least two (2) weeks in
+advance for absences of three (3) or more consecutive days, and at least three
+(3) business days in advance for shorter absences. Managers may decline
+requests during critical business periods, provided reasonable alternative dates
+are offered.
+
+Sick Leave
+
+Employees are entitled to ten (10) paid sick days per calendar year. A medical
+certificate is required for absences exceeding three (3) consecutive working
+days. Sick days do not carry over between calendar years.
+
+In Germany, statutory sick pay provisions apply after the company sick leave
+entitlement is exhausted. Employees in Portugal and the United States should
+refer to the country-specific addendum for details on statutory sick leave
+provisions.
+
+===== page 6 =====
+Additional Leave Types
+
+  Leave Type  Duration  Conditions
+
+  Parental Leave  Per local statutory  Notify HR at least 8 weeks before
+  requirements  expected start
+
+  Marriage Leave  3 days  Must be taken within 30 days of theceremony
+
+  Bereavement  5 days (immediate  Immediate family: spouse, partner,
+  Leave  family) / 2 days (extended  parent, child, sibling
+  family)
+
+  Jury Duty  As required by law  Provide summons documentation toHR
+
+  Volunteer
+  Leave  2 days per year  Pre-approved volunteer activitiesaligned with company CSR goals
+
+  Available after 5 years of continuous
+  Sabbatical  Up to 3 months unpaid  employment; requires VP-level
+  approval
+
+6. Expense and Travel Policy
+
+NovaTech Solutions reimburses reasonable business expenses incurred in the
+course of employment. All expenses must be submitted through the
+NovaExpense platform within thirty (30) calendar days of being incurred.
+Expenses submitted after this deadline may not be reimbursed.
+
+Meals and Incidentals
+
+  Category  Daily Limit
+
+  Domestic travel (within country of employment)  €25 per day
+
+  International travel  €40 per day
+
+Meal expenses include breakfast, lunch, dinner, and non-alcoholic beverages.
+Alcoholic beverages are not reimbursable except during approved client
+entertainment (see below). Tips are reimbursable up to 15% of the meal cost.
+
+===== page 7 =====
+Travel
+
+Flights: All flight bookings must be made through the company's preferred
+travel platform (currently TravelPerk). Economy class is the standard for flights
+under six (6) hours. Premium economy may be booked for flights exceeding six
+(6) hours. Business class requires VP-level pre-approval and is generally reserved
+for C-level executives and client-facing travel where the flight exceeds eight (8)
+hours.
+
+Pre-approval requirement: Any single flight booking exceeding €500 requires
+pre-approval from the employee's manager via NovaExpense before booking.
+Flights exceeding €2,000 require additional approval from the Finance
+department.
+
+Rail travel: Rail is preferred over air travel for journeys under four (4) hours.
+First-class rail tickets are permitted for journeys exceeding two (2) hours.
+
+Hotels: The maximum nightly rate for hotel accommodation is €150 for
+domestic travel and €200 for international travel. Exceptions for high-cost cities
+(e.g., London, San Francisco, Zurich) may be approved by the Finance team on a
+case-by-case basis.
+
+Ground transportation: Taxi and ride-share services are reimbursable for
+business travel. Rental cars require prior manager approval and must include
+comprehensive insurance coverage.
+
+Client Entertainment
+
+Client entertainment expenses (meals, events, gifts) must be pre-approved by a
+director-level manager. The maximum per-person spend for client entertainment
+is €100. Gifts to clients must not exceed €50 per recipient per calendar year
+and must comply with the recipient's organization's gift policies.
+
+Home Office Setup Allowance
+
+Employees approved for regular remote work (minimum two days per week) are
+eligible for a one-time home office setup allowance of €500. This covers
+ergonomic furniture, monitors, keyboards, and similar equipment. Receipts must
+be submitted within sixty (60) days of purchase. This allowance is available once
+per employee and does not renew.
+
+===== page 8 =====
+Expense Policy Violations
+
+Repeated violations of the expense policy, including late submissions, missing
+receipts, or exceeding limits without pre-approval, may result in suspension of
+the employee's corporate credit card and disciplinary action in accordance with
+Section 14.
+
+7. Onboarding Process
+
+NovaTech Solutions is committed to providing every new employee with a
+structured, supportive onboarding experience. Our onboarding program runs for
+the first ninety (90) calendar days of employment and consists of three
+phases.
+
+Phase 1: Pre-Boarding (Before Day 1)
+
+Before the new employee's start date, the following steps are completed:
+
+  • HR sends the welcome package (contract, handbook, IT equipment request
+  form) at least ten (10) business days before the start date.
+  • IT provisions equipment (laptop, monitors, peripherals) and creates
+  accounts (email, Slack, NovaHR, Jira, GitHub).
+  • The employee's manager assigns an onboarding buddy — a peer-level
+  colleague who will serve as the new employee's primary informal point of
+  contact during the first 90 days.
+
+Phase 2: First Two Weeks
+
+ Day  Activity
+
+ Day 1  Welcome session with HR (benefits enrollment, handbook review, office touror virtual equivalent)
+
+ Day 1  Meet with manager to review role expectations, first-month goals, and teamstructure
+
+ Day 1  Lunch with onboarding buddy
+
+ Day 2–  IT orientation: development environment setup, security training, tool
+ 3  walkthroughs
+
+ Day 3–  Product deep-dive sessions (NovaTech ProjectHub and NovaTech Insight
+ 5  demos, architecture overview)
+
+===== page 9 =====
+Day  Activity
+
+ Week
+ 2  Shadow sessions with team members; first small task or ticket assigned
+
+Phase 3: Months 1–3
+
+During the first three months, the new employee works closely with their
+manager and onboarding buddy to ramp up on their role responsibilities. Key
+milestones include:
+
+  • 30-day check-in: Informal conversation between the employee, their
+  manager, and their buddy to assess how the onboarding is progressing and
+  address any concerns.
+  • 60-day check-in: The employee presents a brief summary of what they
+  have learned and identifies areas where they need additional support.
+  • 90-day review: A formal review meeting with the employee's manager
+  and an HR representative. The purpose of this review is to evaluate whether
+  the employee has successfully completed the probationary period. The
+  review covers role competency, cultural fit, and values alignment. The
+  outcome is documented in NovaHR.
+
+The Buddy System
+
+The onboarding buddy plays a critical role in the new employee's integration into
+NovaTech Solutions. Buddies are selected by the hiring manager based on the
+following criteria: they should be in the same team or a closely collaborating
+team, have been at NovaTech for at least twelve (12) months, and have
+volunteered for the buddy program.
+
+Buddies are expected to be available for at least thirty (30) minutes per day
+during the new employee's first two weeks and at least one (1) hour per week
+during months two and three. Buddies are recognized for their contribution in
+their own performance reviews, and exceptional buddies are eligible for the
+quarterly NovaStar Award (see Section 8).
+
+It is important to understand that the buddy relationship is distinct from the
+manager relationship. The buddy provides informal guidance on team norms,
+company culture, tooling, and day-to-day workflow. The buddy is not responsible
+for performance management, goal setting, or disciplinary matters. New
+employees should feel comfortable asking their buddy questions they might
+hesitate to raise with their manager, and buddies are expected to maintain
+confidentiality within the bounds of company policy. This informal support
+
+===== page 10 =====
+structure has been shown to reduce new-hire attrition at NovaTech by 34% since
+the program was formalized in 2022, and post-onboarding surveys consistently
+rate the buddy program as the single most valuable element of the onboarding
+experience. For these reasons, NovaTech considers buddy participation a serious
+commitment, and managers should ensure that employees serving as buddies
+have sufficient bandwidth to fulfill this responsibility without compromising their
+own deliverables.
+
+8. Performance Management
+
+NovaTech Solutions uses a continuous performance management model built on
+regular feedback, clear goals, and transparent evaluation criteria.
+
+Quarterly Check-Ins
+
+Every employee participates in a quarterly check-in with their direct manager.
+These check-ins are scheduled in the first two weeks of January, April, July, and
+October. The check-in covers:
+
+  1. Progress against OKRs (Objectives and Key Results): Each employee
+  sets 3–5 OKRs per quarter in collaboration with their manager.
+  2. Values alignment: A brief discussion of how the employee has
+  demonstrated NovaTech's core values.
+  3. Development goals: Review of professional development activities and
+  skills growth.
+  4. Feedback exchange: Bidirectional feedback — the employee also
+  provides feedback on management and team dynamics.
+
+Quarterly check-ins are documented in NovaHR. They are developmental in
+nature and do not directly determine compensation changes.
+
+Annual Formal Review
+
+The annual formal review takes place in December of each calendar year. It
+synthesizes the four quarterly check-ins and produces an overall performance
+rating on the following scale:
+
+ Rating  Description
+
+ Exceptional (5)  Consistently exceeds expectations; recognized impactbeyond immediate role
+
+===== page 11 =====
+Rating  Description
+
+ Strong (4)  Frequently exceeds expectations; reliable high performer
+
+ Meets Expectations  Delivers on commitments and demonstrates values
+ (3)  alignment
+
+ Developing (2)  Partially meets expectations; improvement plan required
+
+ Below Expectations  Does not meet role requirements; subject to performance
+ (1)  improvement plan (PIP)
+
+The annual review directly informs compensation adjustments (effective
+March 1 of the following year) and promotion decisions. Employees rated
+"Developing" or below are placed on a structured Performance Improvement Plan
+(PIP) lasting sixty (60) to ninety (90) days, with bi-weekly progress reviews.
+
+NovaStar Awards
+
+Each quarter, teams may nominate colleagues for the NovaStar Award, which
+recognizes outstanding contributions to customer impact, cross-team
+collaboration, or innovation. Winners receive a €250 bonus and are featured in
+the company all-hands meeting.
+
+9. Professional Development
+
+NovaTech Solutions invests in the continuous growth of its employees. We believe
+that learning is both an individual responsibility and a company priority.
+
+Learning Budget
+
+Every full-time employee receives an annual professional development budget of
+€2,000. This budget may be used for:
+
+  • Online courses and certifications (e.g., Coursera, Udemy, AWS
+  certifications)
+  • Conferences and workshops (registration fees; travel expenses are covered
+  separately under the travel policy)
+  • Books and subscriptions (technical and professional publications)
+  • Language courses relevant to business needs
+
+The learning budget resets on January 1 each year and does not carry over.
+Expenses must be pre-approved by the employee's manager through the
+
+===== page 12 =====
+NovaLearn portal. Approval is generally granted for any learning activity that is
+relevant to the employee's current role or a realistic future role within NovaTech.
+
+Internal Learning
+
+NovaTech organizes the following internal learning activities:
+
+  • Tech Talks (bi-weekly): 30-minute presentations by employees on
+  technical topics, held on alternating Wednesdays at 16:00 CET.
+  • Product Academy (monthly): Deep-dive sessions on NovaTech
+  ProjectHub and NovaTech Insight features, led by product managers.
+  • Leadership Development Program: A six-month program for employees
+  transitioning into management roles. Cohorts of 8–12 participants are
+  selected annually in March. The program includes workshops, executive
+  mentoring, and a capstone project.
+
+Conference Attendance
+
+Employees may attend up to two (2) external conferences per year using
+their learning budget (for registration) and the travel policy (for travel and
+accommodation). Attending additional conferences requires director-level
+approval. Employees who speak at conferences may request additional budget
+from HR.
+
+10. Code of Conduct
+
+All NovaTech Solutions employees, contractors, and partners are expected to
+uphold the highest standards of professional and ethical behavior.
+
+Anti-Discrimination and Harassment
+
+NovaTech Solutions prohibits discrimination, harassment, and retaliation based
+on race, ethnicity, national origin, gender, gender identity or expression, sexual
+orientation, age, disability, religion, political opinion, marital status, or any other
+characteristic protected by applicable law. This applies to all aspects of
+employment, including hiring, promotion, compensation, and termination.
+
+Employees who experience or witness discrimination or harassment should
+report it to their manager, HR, or through the anonymous NovaTrust Reporting
+Line (accessible via the company intranet or by email at trust@novatech-
+solutions.com). All reports are investigated promptly and confidentially.
+
+===== page 13 =====
+Retaliation against employees who report concerns in good faith is strictly
+prohibited and will result in disciplinary action up to and including termination.
+
+Conflicts of Interest
+
+Employees must disclose any personal, financial, or familial relationships that
+could create a conflict of interest with their NovaTech responsibilities. This
+includes but is not limited to: outside employment with competitors or
+customers, significant financial interests in companies that do business with
+NovaTech, and personal relationships with individuals who report to or are
+managed by the employee.
+
+Disclosures should be submitted to HR using the Conflict of Interest Declaration
+form in NovaHR. Disclosures are reviewed by the Legal department, which will
+advise on any necessary mitigations.
+
+Use of Company Resources
+
+Company resources — including equipment, software licenses, email, and
+internet access — are provided for business purposes. Limited personal use is
+permitted provided it does not interfere with job performance, violate any
+company policy, or create legal liability for NovaTech. Employees should have no
+expectation of privacy when using company-owned devices and systems.
+
+Social Media
+
+Employees are welcome to discuss their work at NovaTech on social media,
+provided they do not disclose confidential information (see Section 12), clearly
+state that opinions are their own, and comply with the Social Media Guidelines
+published on the company intranet.
+
+11. Information Technology Policies
+
+The IT policies outlined below are mandatory for all employees and contractors
+with access to NovaTech systems. Compliance is monitored by the IT Security
+team, and violations may result in disciplinary action.
+
+Access and Authentication
+
+  • All NovaTech accounts must be protected by two-factor authentication
+  (2FA). 2FA is mandatory — no exceptions. Hardware security keys (YubiKey)
+
+===== page 14 =====
+are the preferred second factor; authenticator apps (Google Authenticator,
+  Authy) are also acceptable. SMS-based 2FA is not permitted.
+  • Passwords must meet the following requirements: minimum fourteen (14)
+  characters, at least one uppercase letter, one lowercase letter, one digit,
+  and one special character. Passwords must not contain the user's name,
+  email address, or common dictionary words.
+  • Password rotation is required every ninety (90) days. Employees receive
+  automated reminders starting fourteen (14) days before expiration.
+  Accounts with expired passwords are locked after a forty-eight (48) hour
+  grace period.
+  • Employees must not share credentials with any other person, including
+  colleagues, managers, and IT staff. IT will never ask for your password.
+
+Device Management
+
+  • All company-issued devices must be enrolled in the Mobile Device
+  Management (MDM) system (currently Microsoft Intune).
+  • Personal devices may not be used to access production systems,
+  source code repositories, or customer data. Personal devices may be
+  used to access email and Slack via the approved mobile applications,
+  provided the device meets the minimum security requirements (OS version
+  no more than two major versions behind current, device encryption
+  enabled, screen lock enabled).
+  • Company-issued devices must have full-disk encryption enabled (BitLocker
+  for Windows, FileVault for macOS). This is configured automatically by IT.
+  • Lost or stolen devices must be reported to IT within four (4) hours of
+  discovery via the IT emergency hotline (+49 89 555 0199) or it-
+  security@novatech-solutions.com.
+
+Software and Development Practices
+
+  • Only software approved by IT may be installed on company devices.
+  Software requests are submitted through the IT Service Portal and are
+  typically processed within three (3) business days.
+  • Source code must be stored exclusively in the company's GitHub Enterprise
+  instance. Personal GitHub accounts may not be used for company code.
+  • All code changes to production branches require peer review by at least
+  one (1) other engineer before merging.
+  • Secrets (API keys, database credentials, certificates) must be stored in the
+  company's secrets management system (HashiCorp Vault) and must never
+  be committed to version control.
+
+===== page 15 =====
+Network Security
+
+  • The company VPN must be used when accessing internal systems from
+  outside the office network. The VPN client (WireGuard) is pre-installed on all
+  company devices.
+  • Employees must not connect company devices to untrusted public Wi-Fi
+  networks without the VPN active.
+
+12. Data Protection and Confidentiality
+
+NovaTech Solutions processes personal data in compliance with the General
+Data Protection Regulation (GDPR), the California Consumer Privacy Act
+(CCPA), and other applicable data protection laws. Our Data Protection Officer
+(DPO) can be reached at dpo@novatech-solutions.com.
+
+Confidential Information
+
+Employees have access to confidential information including but not limited to:
+customer data, source code, product roadmaps, financial results, pricing
+strategies, and employee data. This information must not be disclosed to
+unauthorized persons, whether inside or outside the company, except as
+required to perform job duties.
+
+The obligation of confidentiality survives the termination of employment and
+remains in effect for twenty-four (24) months after the employee's last day of
+work, unless a longer period is specified in the employment contract.
+
+Data Classification
+
+ Classification  Description  Examples  Handling
+
+  Information  Marketing materials,
+ Public  intended for  blog posts  No restrictions
+  public distribution
+
+  Information for  Org charts, internal  Do not share
+ Internal  NovaTech  announcements  externally
+  employees only
+
+  Financial data,  Need-to-know basis;
+ Confidential  Sensitive businessinformationproduct roadmap,  encrypted storage
+  customer lists
+
+===== page 16 =====
+Classification  Description  Examples  Handling
+
+  Customer PII,  Strict access
+ Restricted  Highly sensitive  credentials, security  controls; encrypted
+  data  audits  at rest and in transit;
+  audit logging
+
+All employees must complete the annual data protection training
+(administered via NovaLearn in February each year) to maintain access to
+Confidential and Restricted data.
+
+13. Health and Safety
+
+NovaTech Solutions is committed to providing a safe and healthy working
+environment in all of our offices. Office-specific health and safety information,
+including evacuation routes, first-aid stations, and emergency contacts, is posted
+on each floor and available on the company intranet.
+
+Ergonomics
+
+Employees may request an ergonomic assessment of their workstation at any
+time by submitting a request through the IT Service Portal. Assessments are
+conducted by certified ergonomics consultants and are available for both office
+and home workstations.
+
+Mental Health Support
+
+NovaTech provides an Employee Assistance Program (EAP) through our partner,
+Workplace Options, offering confidential counseling and support services.
+Employees and their immediate family members may access up to eight (8)
+free counseling sessions per year. The EAP can be reached 24/7 at +49 800
+700 2424 (Germany), +351 800 500 345 (Portugal), or +1 800 555 0147 (USA).
+
+14. Grievance and Disciplinary Procedures
+
+Raising a Grievance
+
+Employees who have a concern about their treatment at work, their working
+conditions, or a colleague's behavior should first attempt to resolve the matter
+informally with their manager. If the concern involves the manager, or if informal
+
+===== page 17 =====
+resolution is not possible, the employee may submit a formal grievance to HR via
+the NovaHR portal or the NovaTrust Reporting Line.
+
+HR will acknowledge receipt of a formal grievance within two (2) business
+days and will complete an investigation within twenty (20) business days,
+unless the complexity of the matter requires an extension (in which case the
+employee will be informed).
+
+Disciplinary Process
+
+NovaTech follows a progressive disciplinary process for policy violations or
+performance issues:
+
+  1. Verbal warning — documented in NovaHR.
+  2. Written warning — formal letter outlining the issue and expected
+  improvements, with a review date within thirty (30) days.
+  3. Final written warning — formal letter with a clear statement that further
+  violations may result in termination.
+  4. Termination — for persistent violations or a single act of gross misconduct.
+
+Acts of gross misconduct — including theft, fraud, violence, harassment,
+deliberate data breaches, and severe safety violations — may result in
+immediate termination without prior warnings.
+
+15. Handbook Acknowledgment
+
+By continuing employment with NovaTech Solutions, employees acknowledge
+that they have received, read, and understood this handbook. A digital
+acknowledgment is recorded in NovaHR during onboarding and each time the
+handbook is updated.
+
+This handbook does not constitute an employment contract or a guarantee of
+employment. NovaTech Solutions reserves the right to modify, revise, or
+discontinue any policy in this handbook at any time, with reasonable notice to
+employees. Material changes will be communicated via company-wide email and
+posted on the intranet.
+
+NovaTech Solutions GmbH Leopoldstraße 120, 80802 Munich, Germany
+Handelsregister: HRB 231847 (Amtsgericht Munich) Geschäftsführer: Sarah Chen
+(CEO), Marcus Weber (CTO), Priya Anand (CFO)
+
+For questions about this handbook, contact: hr@novatech-solutions.com

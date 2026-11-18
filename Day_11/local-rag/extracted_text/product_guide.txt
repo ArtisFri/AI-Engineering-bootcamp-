@@ -1,0 +1,1292 @@
+===== page 1 =====
+NovaTech Solutions — Product
+Guide
+
+Version 4.2 | Last Updated: January 2026
+
+NovaTech Solutions is a B2B SaaS company headquartered in Munich, Germany,
+with offices in Lisbon and Austin. Founded in 2017, NovaTech serves over 800
+customers across 24 countries. This product guide provides a comprehensive
+overview of our two core platforms — NovaTech ProjectHub and NovaTech
+Insight — including features, pricing, technical specifications, and integration
+capabilities.
+
+Table of Contents
+
+  1. Company Overview
+  2. NovaTech ProjectHub
+  3. NovaTech Insight
+  4. Shared Analytics Dashboard
+  5. Pricing and Plans
+  6. Feature Comparison by Tier
+  7. Service Level Agreements
+  8. API Reference and Rate Limits
+  9. Integration Capabilities
+ 10. Data Management and Export
+ 11. Security and Compliance
+ 12. Deployment Options
+ 13. Support and Onboarding
+ 14. Frequently Asked Questions
+
+1. Company Overview
+
+NovaTech Solutions was founded by Dr. Lena Vogt and Marco Bassi with a
+singular mission: to bridge the gap between project execution and business
+intelligence. Too many organizations run projects in one tool and analyze
+outcomes in another, losing context and time in the process. NovaTech's
+
+===== page 2 =====
+integrated platform approach ensures that the data generated during project
+execution flows seamlessly into analytics — without manual exports,
+transformations, or reconciliation.
+
+Key Company Facts
+
+ Metric  Value
+
+ Founded  2017
+
+ Headquarters  Munich, Germany
+
+ Employees  ~400
+
+ Customers  847 (as of Q1 2026)
+
+ Countries served  24
+
+ Annual recurring revenue (ARR)  €18.2M (Q1 2026)
+
+ Data centers  Frankfurt, Dublin, US-East (Virginia), Singapore
+
+ SOC 2 Type II certified  Since 2020
+
+ ISO 27001 certified  Since 2021
+
+NovaTech processes over 12 billion API requests per month across its platform
+and stores more than 48 petabytes of customer project and analytics data. The
+platform is built on a microservices architecture deployed on Kubernetes, with
+PostgreSQL and ClickHouse as the primary data stores.
+
+2. NovaTech ProjectHub
+
+2.1 Overview
+
+NovaTech ProjectHub is a comprehensive project management platform designed
+for mid-size to large organizations managing complex, cross-functional initiatives.
+It supports Agile, Waterfall, and hybrid methodologies out of the box, with
+configurable workflows that adapt to any team's processes.
+
+ProjectHub is used by over 1,800 organizations, with the average enterprise
+customer managing 340 active projects and 2,100 users on the platform
+simultaneously.
+
+===== page 3 =====
+2.2 Core Features
+
+Work Item Management
+
+ProjectHub organizes work into a flexible hierarchy: Programs > Projects >
+Epics > Tasks > Subtasks. Each level supports custom fields, statuses,
+priorities, and assignees. Work items can be linked with dependency
+relationships (blocks, is-blocked-by, relates-to, duplicates) and can span multiple
+projects within a program.
+
+  • Up to 50 custom fields per work item type (Starter tier)
+  • Up to 200 custom fields per work item type (Professional and Enterprise
+  tiers)
+  • Supported field types: text, number, date, dropdown, multi-select, user
+  picker, URL, currency, formula
+  • Bulk editing of up to 500 work items at once
+  • Work item templates with pre-filled fields and checklists
+
+Board Views
+
+ProjectHub provides four primary board views:
+
+  1. Kanban Board — Drag-and-drop cards across customizable columns.
+  Supports WIP limits (configurable per column, default maximum of 15
+  items), swimlanes by assignee or priority, and card color-coding by label.
+  2. Gantt Chart — Interactive timeline view with drag-to-reschedule,
+  dependency arrows, critical path highlighting, and baseline comparison.
+  Supports date ranges up to 5 years. Export to PDF and PNG available on
+  Professional and Enterprise tiers.
+  3. Sprint Board — Scrum-style board with sprint planning, velocity tracking,
+  burndown and burnup charts. Sprint duration is configurable from 1 to 6
+  weeks. Supports story point and time-based estimation.
+  4. Calendar View — Monthly and weekly views showing tasks by due date,
+  with drag-to-reschedule capability. Syncs bidirectionally with Google
+  Calendar and Microsoft Outlook on Professional and Enterprise tiers.
+
+Resource Management
+
+The resource management module helps organizations balance workloads and
+plan capacity:
+
+  • Capacity planning: Define available hours per team member per week
+  (supports part-time schedules, holidays, and leave)
+
+===== page 4 =====
+• Workload heatmap: Visual grid showing over-allocation and under-
+  allocation across team members and time periods
+  • Skill matrix: Tag team members with skills and certifications for smart
+  assignment suggestions
+  • Utilization reports: Track billable vs. non-billable hours with configurable
+  rate cards
+  • Resource data is refreshed every 15 minutes for Starter, every 5 minutes
+  for Professional, and in real-time (sub-30-second) for Enterprise
+
+Time Tracking
+
+Built-in time tracking allows team members to log hours directly against tasks:
+
+  • Manual entry and running timer modes
+  • Weekly timesheet view with approval workflows
+  • Overtime calculation based on configurable work schedules (per user or per
+  team)
+  • Integration with payroll systems via REST API
+  • Time entries support billable/non-billable classification and cost center
+  tagging
+  • Maximum of 10,000 time entries per user per month
+
+Automation Engine
+
+ProjectHub includes a rule-based automation engine that reduces manual work:
+
+  • Trigger types: Status change, field update, due date approaching,
+  comment added, attachment uploaded, assignee changed
+  • Action types: Update field, move to column, send notification, create
+  subtask, assign user, add label, trigger webhook
+  • Starter tier: up to 25 automation rules per project
+  • Professional tier: up to 150 automation rules per project
+  • Enterprise tier: unlimited automation rules
+  • Automation execution logs retained for 30 days (Professional) or 90 days
+  (Enterprise)
+
+Document Management
+
+Each project includes a document space:
+
+  • File storage limits: 5 GB per project (Starter), 50 GB per project
+  (Professional), 500 GB per project (Enterprise)
+
+===== page 5 =====
+• Supported formats: PDF, DOCX, XLSX, PPTX, PNG, JPG, SVG, MP4, and 40+
+  additional formats
+  • Version history: last 10 versions (Starter), last 50 versions (Professional),
+  unlimited (Enterprise)
+  • In-browser preview and annotation for PDF and image files
+  • Full-text search across document contents (Professional and Enterprise
+  only)
+
+2.3 ProjectHub Reporting
+
+ProjectHub includes a native reporting module with 18 pre-built report templates:
+
+  • Project status summary
+  • Task completion rate
+  • Sprint velocity trend
+  • Resource utilization
+  • Time tracking summary
+  • Risk register
+  • Dependency health
+  • Overdue tasks
+
+Custom reports can be created using a drag-and-drop report builder. Reports
+support filtering by any standard or custom field, grouping, and conditional
+formatting. Scheduled report delivery via email is available on Professional and
+Enterprise tiers (daily, weekly, or monthly).
+
+Reports can be exported in PDF, XLSX, and CSV formats. On Enterprise tier,
+reports can also be exported via the API in JSON format for downstream
+processing.
+
+3. NovaTech Insight
+
+3.1 Overview
+
+NovaTech Insight is a business intelligence and analytics platform purpose-built
+for operational data. Unlike general-purpose BI tools, Insight is optimized for
+time-series operational data, project metrics, and process analytics. It connects
+natively to NovaTech ProjectHub but also supports 45+ external data sources.
+
+Insight is used by over 1,100 organizations, processing an average of 2.3 billion
+data points per day across all customers.
+
+===== page 6 =====
+3.2 Core Features
+
+Data Connectors
+
+Insight supports the following connector categories:
+
+  • Native: NovaTech ProjectHub (zero-configuration, real-time sync)
+  • Databases: PostgreSQL, MySQL, Microsoft SQL Server, Oracle, MongoDB,
+  ClickHouse, Snowflake, BigQuery, Amazon Redshift
+  • File-based: CSV, Excel (XLSX), JSON, Parquet, Apache Avro
+  • SaaS platforms: Salesforce, HubSpot, Jira, ServiceNow, Zendesk, SAP (S/
+  4HANA and ECC)
+  • APIs: Generic REST API connector, GraphQL connector, OData connector
+  • Streaming: Apache Kafka, Amazon Kinesis (Enterprise tier only)
+
+Data refresh intervals:
+
+ Connector Type  Starter  Professional  Enterprise
+
+ Native (ProjectHub)  Every 60 min  Every 15 min  Real-time (<30s)
+
+ Database
+ connectors  Every 6 hours  Every 1 hour  Every 15 min
+
+ SaaS connectors  Every 12hours  Every 2 hours  Every 30 min
+
+ File-based  Manual  Scheduled  Scheduled (every 15
+  upload  (hourly)  min)
+
+ Streaming  Not available  Not available  Real-time
+
+Data Modeling
+
+Insight includes a visual data modeling layer:
+
+  • Drag-and-drop relationship builder between data sources
+  • Calculated columns using a formula language (NovaTech Expression
+  Language, or NEL) with 120+ built-in functions
+  • Row-level security (RLS) policies to restrict data visibility by user role, team,
+  or organizational unit
+  • Data model versioning with rollback capability (Professional and Enterprise)
+  • Maximum dataset size: 10 million rows (Starter), 500 million rows
+  (Professional), 10 billion rows (Enterprise)
+
+===== page 7 =====
+Dashboard Builder
+
+The dashboard builder is a drag-and-drop canvas supporting:
+
+  • 30+ visualization types: bar, line, area, scatter, pie, donut, treemap,
+  heatmap, funnel, waterfall, gauge, KPI card, table, pivot table, map
+  (choropleth and point), Sankey diagram, box plot, histogram, bullet chart,
+  and more
+  • Interactive filters: dropdown, date range, slider, search, cross-filter (click
+  on one chart to filter others)
+  • Dashboard parameters: user-selectable variables that dynamically
+  change queries and titles
+  • Responsive layouts: dashboards automatically adapt to screen size
+  (desktop, tablet, mobile)
+  • Maximum dashboards: 10 (Starter), 100 (Professional), unlimited
+  (Enterprise)
+  • Maximum visualizations per dashboard: 20 (Starter), 50 (Professional), 100
+  (Enterprise)
+
+Embedded Analytics
+
+Insight supports embedding dashboards and individual visualizations into third-
+party applications:
+
+  • Embed via iframe with signed URLs (Professional and Enterprise)
+  • JavaScript SDK for programmatic embedding with event callbacks
+  • White-label mode: remove NovaTech branding (Enterprise only)
+  • Single sign-on (SSO) pass-through for seamless authentication
+  • Embed tokens expire after 24 hours by default (configurable from 1 hour to
+  7 days on Enterprise)
+
+Alerting and Anomaly Detection
+
+Insight includes proactive monitoring capabilities:
+
+  • Threshold alerts: Trigger notifications when a metric crosses a defined
+  boundary (e.g., "Alert when sprint velocity drops below 20 story points")
+  • Anomaly detection: ML-based detection of unusual patterns in time-series
+  data. Uses an ensemble of statistical methods (Z-score, IQR, Isolation
+  Forest). Sensitivity is configurable from 1 (very sensitive) to 10 (only
+  extreme anomalies).
+  • Alert channels: Email, Slack, Microsoft Teams, PagerDuty, custom
+  webhook
+
+===== page 8 =====
+• Alert frequency: minimum interval of 1 hour (Starter), 15 minutes
+  (Professional), 5 minutes (Enterprise)
+  • Alert history retention: 30 days (Starter), 90 days (Professional), 365 days
+  (Enterprise)
+
+Natural Language Query (NLQ)
+
+Available on Professional and Enterprise tiers, NLQ allows users to ask questions
+about their data in plain English (or German, French, Spanish, and Japanese):
+
+  • Example: "What was the average project completion time in Q3 2025 for
+  the EMEA region?"
+  • NLQ translates natural language into NEL expressions and generates a
+  visualization
+  • Accuracy rate of approximately 87% on standard analytical queries (based
+  on internal benchmarking)
+  • Users can refine generated queries and save them as dashboard widgets
+
+3.3 Insight Reporting
+
+Insight offers scheduled report generation and distribution:
+
+  • Pixel-perfect reports: Design paginated reports with headers, footers,
+  page numbers, and cover pages for formal distribution
+  • Burst reports: Automatically generate per-recipient versions of a report
+  (e.g., one report per region manager, filtered to their region)
+  • Report output formats: PDF, XLSX, PPTX, HTML
+  • Scheduled delivery: email, SFTP, SharePoint, Amazon S3
+  • Maximum scheduled reports: 5 (Starter), 50 (Professional), unlimited
+  (Enterprise)
+
+4. Shared Analytics Dashboard
+
+Both NovaTech ProjectHub and NovaTech Insight include a Shared Analytics
+Dashboard module. This is a core component present in both products, but with
+different capabilities depending on which product you are using.
+
+===== page 9 =====
+4.1 In NovaTech ProjectHub
+
+The Shared Analytics Dashboard in ProjectHub provides project-focused analytics:
+
+  • 8 pre-built widgets: Task burndown, sprint velocity, resource utilization,
+  overdue tasks, project health score, milestone tracker, risk heatmap, team
+  workload
+  • Customization: Users can rearrange widgets and adjust date ranges, but
+  cannot create custom widgets
+  • Data scope: Limited to ProjectHub data only (tasks, sprints, time entries,
+  resources)
+  • Refresh interval: Every 30 minutes
+  • Sharing: Dashboards can be shared with project members via link. View-
+  only access for stakeholders outside the project (requires Professional or
+  Enterprise tier).
+  • Export: Screenshot (PNG) and PDF export of the dashboard view
+  • Maximum of 3 shared dashboards per project (Starter), 10 per project
+  (Professional), unlimited (Enterprise)
+
+4.2 In NovaTech Insight
+
+The Shared Analytics Dashboard in Insight is a superset of the ProjectHub
+version:
+
+  • All 8 ProjectHub widgets plus the full library of 30+ visualization types
+  • Custom widget creation using the drag-and-drop builder or NEL
+  expressions
+  • Data scope: Can combine ProjectHub data with any connected data
+  source (databases, SaaS platforms, files)
+  • Refresh interval: Matches the connector refresh rates (see Data Connectors
+  section above)
+  • Sharing: Dashboards can be shared with any user in the organization,
+  embedded externally, or published as public links (Enterprise only)
+  • Export: PNG, PDF, XLSX, and scheduled email distribution
+  • Row-level security applies to shared dashboards, ensuring each viewer sees
+  only their authorized data
+  • Interactive drill-down: Click on any data point to explore underlying
+  records (not available in the ProjectHub version)
+  • Cross-dashboard linking: Create navigation paths between related
+  dashboards
+
+===== page 10 =====
+4.3 Key Differences Summary
+
+  Capability  ProjectHubVersion  Insight Version
+
+  Pre-built widgets  8  8 + 30+ visualization types
+
+  Custom widgets  No  Yes
+
+  Data sources  ProjectHub only  All connected sources
+
+  Refresh interval  30 minutes  Varies by connector (up to real-time)
+
+  Interactive drill-down  No  Yes
+
+  Row-level security  No  Yes
+
+  Embedding  No  Yes (Professional and Enterprise)
+
+  Scheduled distribution  No  Yes
+
+  Cross-dashboard
+  linking  No  Yes
+
+When both products are licensed together, the Insight version automatically
+ingests all ProjectHub data via the native connector, and users can access the
+enhanced dashboard capabilities for their project data without any additional
+configuration.
+
+5. Pricing and Plans
+
+NovaTech offers three pricing tiers, applicable to both ProjectHub and Insight.
+Customers can license each product independently or together at a bundled rate.
+
+5.1 Per-Product Pricing
+
+  Tier  Monthly Price  Annual Price (per user,  Minimum
+  (per user)  billed annually)  Users
+
+  Starter  €29/user/month  €24/user/month  5
+
+  Professional  €79/user/month  €66/user/month  10
+
+  Enterprise  Custom pricing  Custom pricing  50
+
+===== page 11 =====
+5.2 Bundle Pricing (ProjectHub + Insight)
+
+Customers licensing both products receive a 15% discount on the combined
+per-user price:
+
+  Tier  Monthly Bundle Price (per  Annual Bundle Price (per
+  user)  user)
+
+  Starter  €49/user/month (instead of €58)  €41/user/month
+
+  Professional  €134/user/month (instead of€158)  €112/user/month
+
+  Enterprise  Custom pricing  Custom pricing
+
+5.3 Add-Ons
+
+  Add-On  Price  Available On
+
+  Additional storage (per 100 GB)  €50/month  All tiers
+
+  SSO (SAML 2.0 / OIDC)  Included  Professional, Enterprise
+
+  Advanced audit logging  €5/user/month  Professional, Enterprise
+
+  Dedicated support manager  €2,000/month  Enterprise only
+
+  Custom data residency  €3,000/month  Enterprise only
+
+  Disaster recovery (cross-region)  Included  Enterprise only
+
+5.4 Free Trial
+
+All tiers include a 14-day free trial with full Professional-tier features. No credit
+card is required to start a trial. Trial workspaces are limited to 10 users and 5 GB
+of storage.
+
+6. Feature Comparison by Tier
+
+6.1 NovaTech ProjectHub — Feature Comparison
+
+  Feature  Starter  Professional  Enterprise
+
+  Projects  Up to 20  Up to 200  Unlimited
+
+  Users  5 - 100  10 - 1,000  50 - Unlimited
+
+===== page 12 =====
+Feature  Starter  Professional  Enterprise
+
+  Custom fields per work
+  item type  50  200  200
+
+  Automation rules per
+  project  25  150  Unlimited
+
+  File storage per project  5 GB  50 GB  500 GB
+
+  Document version
+  history  Last 10  Last 50  Unlimited
+
+  Gantt chart export  No  PDF, PNG  PDF, PNG, API(JSON)
+
+  Calendar sync  No  Google, Outlook  Google, Outlook,Exchange
+
+  Resource refresh
+  interval  15 min  5 min  Real-time (<30s)
+
+  Shared dashboards per
+  project  3  10  Unlimited
+
+  Scheduled reports  No  Daily, weekly,  Daily, weekly,
+  monthly  monthly
+
+  Time tracking  Basic  Advanced (approval  Advanced + payroll
+  workflows)  integration
+
+  Guest access (external
+  stakeholders)  No  10 guests per project  Unlimited guests
+
+  Audit log retention  7 days  90 days  365 days
+
+  SSO  No  SAML 2.0  SAML 2.0, OIDC,SCIM
+
+  IP allowlisting  No  No  Yes
+
+  Custom roles and  3 built-in
+  permissions  roles  10 custom roles  Unlimited customroles
+
+6.2 NovaTech Insight — Feature Comparison
+
+  Feature  Starter  Professional  Enterprise
+
+  Dashboards  10  100  Unlimited
+
+===== page 13 =====
+Feature  Starter  Professional  Enterprise
+
+  Visualizations per dashboard  20  50  100
+
+  Data connectors  5  20  Unlimited
+
+  Maximum dataset size  10Mrows  500M rows  10B rows
+
+  Scheduled reports  5  50  Unlimited
+
+  Embedded analytics  No  Yes (iframe)  Yes (iframe + JSSDK)
+
+  White-label embedding  No  No  Yes
+
+  Natural language query  No  Yes  Yes
+
+  Anomaly detection  No  Basic  Advanced (ML-
+  (threshold)  based)
+
+  Alert minimum interval  1 hour  15 min  5 min
+
+  Alert history retention  30 days  90 days  365 days
+
+  Row-level security  No  Yes  Yes
+
+  Data model versioning  No  Yes  Yes
+
+  Streaming connectors (Kafka,
+  Kinesis)  No  No  Yes
+
+  Custom data residency  No  No  Yes
+
+  Dedicated compute resources  No  No  Yes
+
+7. Service Level Agreements
+
+NovaTech provides uptime guarantees based on tier. Uptime is measured
+monthly and excludes scheduled maintenance windows (announced at least 72
+hours in advance, limited to 4 hours per month).
+
+7.1 Uptime Commitments
+
+  Tier  Uptime SLA  Maximum Monthly Downtime  Measurement
+
+  Starter  99.5%  ~3 hours 39 minutes  Calendar month
+
+  Professional  99.9%  ~43 minutes  Calendar month
+
+===== page 14 =====
+Tier  Uptime SLA  Maximum Monthly Downtime  Measurement
+
+  Enterprise  99.95%  ~21 minutes  Calendar month
+
+7.2 SLA Credits
+
+If NovaTech fails to meet the uptime commitment, customers are eligible for
+service credits:
+
+  Uptime Achieved  Starter Credit  Professional Credit  Enterprise Credit
+
+  99.0% - 99.49%  5%  —  —
+
+  98.0% - 99.89%  —  10%  —
+
+  99.9% - 99.94%  —  —  10%
+
+  95.0% - 98.99%  —  15%  —
+
+  99.0% - 99.89%  —  —  20%
+
+  Below 95.0%  10%  25%  30%
+
+  Below 99.0%  —  —  30%
+
+Credits are applied to the next billing cycle and do not exceed 30% of the
+monthly fee. Customers must submit credit requests within 30 days of the
+incident.
+
+7.3 Support Response Times
+
+  Severity  Starter  Professional  Enterprise
+
+  Critical (service down)  4 hours  1 hour  15 minutes
+
+  High (major feature broken)  8 hours  2 hours  30 minutes
+
+  Medium (minor feature issue)  24 hours  8 hours  2 hours
+
+  Low (question / enhancement)  72 hours  24 hours  8 hours
+
+Enterprise customers receive 24/7 support with a dedicated support manager.
+Professional customers receive support during extended business hours
+(06:00 - 22:00 CET, Monday to Friday). Starter customers receive support during
+standard business hours (09:00 - 18:00 CET, Monday to Friday).
+
+===== page 15 =====
+7.4 Disaster Recovery
+
+ Metric  Starter  Professional  Enterprise
+
+ Recovery Point Objective (RPO)  24 hours  4 hours  1 hour
+
+ Recovery Time Objective (RTO)  12 hours  4 hours  1 hour
+
+ Backup frequency  Daily  Every 4 hours  Every 1 hour
+
+ Backup retention  7 days  30 days  90 days
+
+ Cross-region replication  No  No  Yes (active-passive)
+
+8. API Reference and Rate Limits
+
+Both NovaTech ProjectHub and NovaTech Insight expose RESTful APIs for
+programmatic access. All APIs use HTTPS, require authentication via API keys or
+OAuth 2.0 tokens, and return responses in JSON format.
+
+8.1 Authentication
+
+API keys are generated in the workspace settings. Each key is scoped to a
+specific product (ProjectHub or Insight) and can be restricted to read-only or
+read-write access.
+
+  # Example: Authenticating with an API key
+  curl -H "Authorization: Bearer <your-api-key>" \
+  -H "Content-Type: application/json" \
+  https://api.novatech.io/v2/projecthub/projects
+
+OAuth 2.0 is supported for applications acting on behalf of users. The
+authorization flow uses the standard authorization code grant:
+
+  # Step 1: Redirect user to authorization URL
+  https://auth.novatech.io/oauth/authorize?
+  client_id=YOUR_CLIENT_ID&
+  redirect_uri=https://yourapp.com/callback&
+  response_type=code&
+  scope=projecthub:read insight:read
+
+  # Step 2: Exchange code for token
+  curl -X POST https://auth.novatech.io/oauth/token \
+
+===== page 16 =====
+-d "grant_type=authorization_code" \
+  -d "code=AUTH_CODE" \
+  -d "client_id=YOUR_CLIENT_ID" \
+  -d "client_secret=YOUR_CLIENT_SECRET" \
+  -d "redirect_uri=https://yourapp.com/callback"
+
+8.2 Rate Limits
+
+API rate limits are enforced per API key, measured in requests per minute:
+
+ Tier  Rate Limit (requests/  Burst Limit (requests/  Daily
+  minute)  second)  Maximum
+
+ Starter  100 req/min  10 req/sec  50,000 req/day
+
+ Professional  1,000 req/min  50 req/sec  500,000 req/day
+
+ Enterprise  5,000 req/min  200 req/sec  Unlimited
+
+Rate limit headers are included in every API response:
+
+  HTTP/1.1 200 OK
+  X-RateLimit-Limit: 1000
+  X-RateLimit-Remaining: 847
+  X-RateLimit-Reset: 1706108460
+
+When the rate limit is exceeded, the API returns HTTP 429 with a  Retry-After
+header:
+
+  HTTP/1.1 429 Too Many Requests
+  Retry-After: 32
+  Content-Type: application/json
+
+  {
+  "error": {
+  "code": "RATE_LIMIT_EXCEEDED",
+  "message": "Rate limit exceeded. Please retry after 32 seconds.",
+  "limit": 1000,
+  "window": "60s"
+  }
+  }
+
+===== page 17 =====
+8.3 Key API Endpoints — ProjectHub
+
+ Method  Endpoint  Description
+
+ GET  /v2/projecthub/projects  List all projects
+
+ POST  /v2/projecthub/projects  Create a new project
+
+ GET  /v2/projecthub/projects/{id}  Get project details
+
+ GET  /v2/projecthub/projects/{id}/tasks  List tasks in a project
+
+ POST  /v2/projecthub/projects/{id}/tasks  Create a task
+
+ PATCH  /v2/projecthub/tasks/{id}  Update a task
+
+ DELETE  /v2/projecthub/tasks/{id}  Delete a task
+
+ GET  /v2/projecthub/tasks/{id}/time-  List time entries for a
+  entries  task
+
+ POST  /v2/projecthub/tasks/{id}/time-
+  entries  Log time against a task
+
+ GET  /v2/projecthub/projects/{id}/sprints  List sprints
+
+ GET  /v2/projecthub/users  List workspace users
+
+Example — Creating a task:
+
+  POST /v2/projecthub/projects/proj_8f3a/tasks
+  Content-Type: application/json
+
+  {
+  "title": "Implement SSO integration",
+  "description": "Add SAML 2.0 single sign-on support for enterprise customers",
+  "status": "to_do",
+  "priority": "high",
+  "assignee_id": "usr_4k2m",
+  "due_date": "2026-03-15",
+  "story_points": 8,
+  "labels": ["security", "enterprise"],
+  "custom_fields": {
+  "cf_department": "Engineering",
+  "cf_estimated_hours": 24
+  }
+  }
+
+===== page 18 =====
+Response:
+
+  {
+  "id": "task_9x7p",
+  "title": "Implement SSO integration",
+  "project_id": "proj_8f3a",
+  "status": "to_do",
+  "priority": "high",
+  "assignee": {
+  "id": "usr_4k2m",
+  "name": "Sarah Chen",
+  "email": "s.chen@example.com"
+  },
+  "created_at": "2026-01-20T14:32:00Z",
+  "updated_at": "2026-01-20T14:32:00Z"
+  }
+
+8.4 Key API Endpoints — Insight
+
+ Method  Endpoint  Description
+
+ GET  /v2/insight/dashboards  List all dashboards
+
+ GET  /v2/insight/dashboards/{id}  Get dashboard details
+
+ POST  /v2/insight/dashboards/{id}/
+  export  Export dashboard (PDF, PNG)
+
+ GET  /v2/insight/datasets  List datasets
+
+ POST  /v2/insight/datasets/{id}/query  Execute a query against adataset
+
+ GET  /v2/insight/alerts  List configured alerts
+
+ POST  /v2/insight/alerts  Create an alert
+
+ GET  /v2/insight/reports  List scheduled reports
+
+ POST  /v2/insight/embed/token  Generate an embed token
+
+Example — Querying a dataset:
+
+  POST /v2/insight/datasets/ds_projectmetrics/query
+  Content-Type: application/json
+
+  {
+
+===== page 19 =====
+"dimensions": ["project_name", "quarter"],
+  "measures": ["avg_completion_days", "total_tasks", "on_time_percentage"],
+  "filters": [
+  {
+  "field": "region",
+  "operator": "in",
+  "values": ["EMEA", "APAC"]
+  },
+  {
+  "field": "year",
+  "operator": "eq",
+  "value": 2025
+  }
+  ],
+  "order_by": [
+  {"field": "avg_completion_days", "direction": "asc"}
+  ],
+  "limit": 50
+ }
+
+8.5 Webhooks
+
+Both products support outbound webhooks for event-driven integrations:
+
+  • ProjectHub events: task.created, task.updated, task.deleted,
+  sprint.started, sprint.completed, project.archived, comment.added,
+  time_entry.logged
+  • Insight events: alert.triggered, report.generated, dashboard.shared,
+  dataset.refreshed
+  • Webhook payloads are signed with HMAC-SHA256 using a per-webhook
+  secret
+  • Failed deliveries are retried up to 5 times with exponential backoff (1 min,
+  5 min, 30 min, 2 hours, 12 hours)
+  • Webhook event log retention: 7 days (Starter), 30 days (Professional), 90
+  days (Enterprise)
+
+9. Integration Capabilities
+
+NovaTech maintains pre-built integrations with major enterprise platforms.
+Integrations are configured in the workspace settings under the "Integrations"
+tab.
+
+===== page 20 =====
+9.1 Project Management
+
+  Platform  IntegrationType  Direction  Available On
+
+  Jira (Cloud and  Bidirectional
+  Server)  sync  Two-way  All tiers
+
+  Asana  Import  One-way (into  Professional,
+  ProjectHub)  Enterprise
+
+  Monday.com  Import  One-way (into  Professional,
+  ProjectHub)  Enterprise
+
+  Azure DevOps  Bidirectionalsync  Two-way  Enterprise only
+
+Jira Integration Details: The Jira integration maps Jira issues to ProjectHub
+tasks with field-level mapping configuration. Supports automatic sync of status
+changes, comments, and attachments. Sync frequency: every 10 minutes
+(Professional), every 2 minutes (Enterprise). Initial sync supports up to 100,000
+issues. Conflict resolution defaults to "last writer wins" but can be configured to
+"source of truth" mode where one system always takes priority.
+
+9.2 Communication
+
+  Platform  Features  AvailableOn
+
+  Slack  Notifications, task creation from messages, slashcommands (/novatech ), channel-to-project linking  All tiers
+
+  Microsoft  Notifications, task creation, tab embedding, bot
+  Teams  commands  All tiers
+
+  Email  Notification delivery, create tasks via email forwarding  All tiers
+
+Slack Integration Details: The Slack integration supports the following slash
+commands:
+
+  •  /novatech create [project] [title]  — Create a new task
+  •  /novatech status [task-id]  — Get task status
+  •  /novatech assign [task-id] [@user]  — Assign a task
+  •  /novatech sprint  — Show current sprint summary
+  •  /novatech dashboard [name]  — Post a dashboard snapshot to the channel
+
+===== page 21 =====
+Interactive message buttons allow updating task status directly from Slack
+without opening ProjectHub.
+
+Microsoft Teams Integration Details: The Teams integration includes a
+NovaTech tab that can be added to any Teams channel, displaying a live project
+board. The Teams bot supports natural language commands (e.g., "Show me
+overdue tasks in Project Alpha") and uses the same NLQ engine as NovaTech
+Insight on Professional and Enterprise tiers.
+
+9.3 Enterprise Resource Planning
+
+ Platform  Integration Type  Available On
+
+ SAP S/4HANA  Bidirectional (project data, cost centers,time entries)  Enterprise only
+
+ SAP ECC  Read-only (cost centers, organizationalunits)  Enterprise only
+
+ Oracle
+ NetSuite  Time entry and expense sync  Professional,Enterprise
+
+SAP Integration Details: The SAP S/4HANA integration uses SAP's OData APIs
+and supports the following data flows:
+
+  • Inbound: Cost centers, organizational units, employee master data, budget
+  allocations
+  • Outbound: Project time entries, project cost reports, milestone completion
+  status
+  • Data mapping is configurable via a visual mapper in the NovaTech admin
+  console
+  • Requires SAP Communication Arrangement setup (documentation provided
+  during onboarding)
+  • Initial data load supports incremental sync to avoid overwhelming SAP
+  systems
+  • Supports SAP Principal Propagation for SSO pass-through
+
+9.4 Developer Tools
+
+ Platform  Integration Type  Available On
+
+ GitHub  Link commits and PRs to tasks  All tiers
+
+ GitLab  Link commits and merge requests to tasks  All tiers
+
+===== page 22 =====
+Platform  Integration Type  Available On
+
+  Bitbucket  Link commits and PRs to tasks  Professional, Enterprise
+
+  Jenkins  Build status on tasks  Professional, Enterprise
+
+  CircleCI  Build status on tasks  Professional, Enterprise
+
+9.5 Custom Integrations
+
+For platforms without pre-built integrations, NovaTech provides:
+
+  • REST API (see Section 8)
+  • Webhooks for event-driven architectures
+  • Zapier connector with 15+ triggers and actions (all tiers)
+  • Make (Integromat) connector with 20+ modules (all tiers)
+  • Custom connector SDK (TypeScript/Python) for building certified
+  integrations (Enterprise only)
+
+10. Data Management and Export
+
+10.1 Data Export Formats
+
+NovaTech supports bulk data export in the following formats:
+
+  Format  ProjectHub  Insight  Availability
+
+  CSV  Yes  Yes  All tiers
+
+  XLSX (Excel)  Yes  Yes  All tiers
+
+  JSON  Yes  Yes  Professional, Enterprise
+
+  PDF (reports)  Yes  Yes  Professional, Enterprise
+
+  Parquet  No  Yes  Enterprise only
+
+  Apache Avro  No  Yes  Enterprise only
+
+===== page 23 =====
+10.2 Bulk Export
+
+Bulk data export is available through the API and the web interface:
+
+  • Web interface: Navigate to Settings > Data Management > Export. Select
+  the data types to export, date range, and format. Exports are processed
+  asynchronously; a download link is emailed when ready.
+  • API: Use the  /v2/export  endpoint to initiate bulk exports
+  programmatically. Exports larger than 1 GB are split into multiple files and
+  delivered as a ZIP archive.
+  • Export frequency limits: 1 export per day (Starter), 5 exports per day
+  (Professional), unlimited (Enterprise)
+
+10.3 Data Retention
+
+ Data Type  Starter  Professional  Enterprise
+
+ Active project data  Unlimited  Unlimited  Unlimited
+
+ Archived project data  1 year  3 years  7 years (configurable)
+
+ Audit logs  7 days  90 days  365 days
+
+ Deleted items (trash)  30 days  60 days  90 days
+
+ Analytics query history  7 days  30 days  90 days
+
+10.4 Data Portability
+
+NovaTech is committed to data portability. Customers can export all their data at
+any time, including:
+
+  • All project data (tasks, comments, attachments, time entries)
+  • All Insight data (datasets, dashboard definitions, report templates, alert
+  configurations)
+  • User and permission data
+  • Automation rules and workflow configurations
+  • Integration configurations (excluding third-party credentials)
+
+Full workspace export is available as a single JSON archive. Processing time
+depends on data volume: typical workspaces (under 100 GB) complete within 4
+hours. Larger workspaces may take up to 48 hours.
+
+===== page 24 =====
+10.5 GDPR Compliance
+
+NovaTech is fully GDPR compliant:
+
+  • Data Processing Agreement (DPA) included with all contracts
+  • Right to deletion: personal data can be purged within 72 hours of a verified
+  request
+  • Data subject access requests processed within 30 days
+  • Privacy impact assessment documentation available on request
+  • EU data residency available by default (Frankfurt data center); other regions
+  available on Enterprise tier
+  • Cookie consent management for embedded analytics
+
+11. Security and Compliance
+
+11.1 Certifications
+
+NovaTech holds the following security certifications:
+
+ Certification  Scope  Since  Last Audit
+
+ SOC 2 Type II  All products and infrastructure  2020  October 2025
+
+ ISO 27001  Information Security ManagementSystem  2021  September2025
+
+ ISO 27701  Privacy Information Management  2023  September2025
+
+ CSA STAR Level
+ 2  Cloud Security Alliance attestation  2022  November2025
+
+ TISAX (AL2)  Trusted Information SecurityAssessment Exchange  2024  August 2025
+
+Audit reports are available to customers under NDA. Contact your account
+manager or email security@novatech.io to request a copy.
+
+11.2 Encryption
+
+  • Data in transit: TLS 1.3 for all connections. TLS 1.2 supported for legacy
+  clients. HTTP connections are automatically redirected to HTTPS.
+  • Data at rest: AES-256 encryption for all stored data. Encryption keys are
+  managed via AWS KMS with automatic key rotation every 365 days.
+
+===== page 25 =====
+• Customer-managed encryption keys (CMEK): Enterprise tier customers
+  can bring their own encryption keys managed in AWS KMS, Azure Key Vault,
+  or Google Cloud KMS.
+  • Field-level encryption: Sensitive custom fields (e.g., salary, personal
+  identifiers) can be encrypted at the field level with separate key
+  management. Available on Enterprise tier.
+
+11.3 Access Control
+
+  • Authentication: Email/password with mandatory 2FA (TOTP or WebAuthn),
+  SSO via SAML 2.0 (Professional and Enterprise), OIDC (Enterprise), SCIM
+  provisioning (Enterprise)
+  • Authorization: Role-based access control (RBAC) with project-level, team-
+  level, and organization-level scopes
+  • Session management: Sessions expire after 8 hours of inactivity.
+  Maximum concurrent sessions: 3 (Starter), 5 (Professional), 10 (Enterprise).
+  • Password policy: Minimum 12 characters, must include uppercase,
+  lowercase, number, and special character. Password history: last 10
+  passwords blocked.
+
+11.4 Infrastructure Security
+
+  • All infrastructure runs on AWS in the EU (Frankfurt) region by default
+  • VPC isolation between customer workloads
+  • Web Application Firewall (WAF) with OWASP Top 10 rule sets
+  • DDoS protection via AWS Shield Advanced
+  • Automated vulnerability scanning of all containers and dependencies (daily)
+  • Annual penetration testing by an independent third party (reports available
+  under NDA)
+  • Bug bounty program with rewards ranging from €250 to €15,000
+
+11.5 Compliance Features
+
+  • Audit logging: All user actions, API calls, and administrative changes are
+  logged with timestamps, user identifiers, IP addresses, and action details
+  • Data loss prevention (DLP): Configure rules to prevent sensitive data
+  from being shared externally (Enterprise only)
+  • Legal hold: Prevent deletion of specified projects or data sets during legal
+  proceedings (Enterprise only)
+  • eDiscovery export: Generate court-admissible exports of all project
+  communications and data (Enterprise only)
+
+===== page 26 =====
+12. Deployment Options
+
+NovaTech offers flexible deployment options to meet varying compliance and
+infrastructure requirements.
+
+12.1 Deployment Models
+
+ Model  Description  AvailableOn
+
+ Multi-tenant  Shared infrastructure in NovaTech-managed AWS  Starter,
+ cloud  regions. Logical tenant isolation via VPC and  Professional
+  database-level separation.
+
+ Dedicated  Single-tenant infrastructure in NovaTech-managed  Enterprise
+ cloud  AWS. Dedicated compute, storage, and networking  only
+  resources.
+
+  Core platform in NovaTech cloud; data processing
+ Hybrid  and storage components deployed on customer  Enterprise
+ deployment  infrastructure. Supports AWS, Azure, and on-  only
+  premises (VMware, bare metal Kubernetes).
+
+12.2 Cloud Deployment Details
+
+Multi-tenant and dedicated cloud deployments include:
+
+  • Regions: EU (Frankfurt), EU (Dublin), US-East (Virginia), Asia-Pacific
+  (Singapore)
+  • Compute: Auto-scaling Kubernetes clusters with guaranteed resource
+  allocation per tenant (dedicated cloud)
+  • Storage: PostgreSQL (primary data), ClickHouse (analytics), S3 (files and
+  backups)
+  • CDN: CloudFront edge locations in 40+ countries for static assets and
+  dashboard rendering
+  • Network: Private endpoints available for Enterprise customers to connect
+  via AWS PrivateLink
+
+12.3 Hybrid Deployment Details
+
+The hybrid deployment model is designed for organizations with strict data
+sovereignty or regulatory requirements:
+
+===== page 27 =====
+On-premises components: - Data Processing Engine (Kubernetes-based,
+minimum 3 nodes) - Data Storage Layer (PostgreSQL 15+, minimum 500 GB
+SSD) - File Storage (S3-compatible object storage or NFS) - Local cache for
+dashboard rendering
+
+Cloud components (NovaTech-managed): - User interface and application logic
+- Authentication and authorization services - Integration connectors - Platform
+updates and patch management
+
+Requirements: - Kubernetes 1.27+ (EKS, AKS, GKE, or self-managed) - Minimum
+16 vCPU, 64 GB RAM, 500 GB SSD per node (3 nodes minimum) - Outbound
+HTTPS connectivity to NovaTech cloud services - NovaTech deployment engineer
+provides on-site or remote setup (included in Enterprise onboarding)
+
+Data in the hybrid model never leaves the customer's infrastructure for
+processing or storage. Only metadata (e.g., dashboard layout definitions, user
+preferences) is stored in the NovaTech cloud.
+
+13. Support and Onboarding
+
+13.1 Onboarding Programs
+
+ Program  Description  Duration  AvailableOn
+
+ Self-service  Documentation, video tutorials, in-appguided tours  Ongoing  All tiers
+
+ Standard  Kick-off call, configuration workshop,
+ onboarding  admin training  2 weeks  Professional
+
+ Premium  Dedicated onboarding manager, custom  6-8
+ onboarding  configuration, data migration, user  weeks  Enterprise
+  training workshops, go-live support
+
+13.2 Training Resources
+
+  • NovaTech Academy: Free online learning platform with 40+ courses,
+  quizzes, and certifications
+  • Live webinars: Weekly product walkthroughs and best practice sessions
+  (registration required, free for all customers)
+  • Custom training: On-site or virtual instructor-led training for up to 30
+  participants (€3,500 per session, Enterprise only)
+
+===== page 28 =====
+• Admin certification: 4-hour exam covering platform administration,
+  security configuration, and integration management. Certified admins
+  receive priority support routing.
+
+13.3 Support Channels
+
+  Channel  Starter  Professional  Enterprise
+
+  Knowledge base  Yes  Yes  Yes
+
+  Community forum  Yes  Yes  Yes
+
+  Email support  Yes  Yes  Yes
+
+  Live chat  No  Yes (business hours)  Yes (24/7)
+
+  Phone support  No  No  Yes (24/7)
+
+  Dedicated support manager  No  No  Yes
+
+  Quarterly business reviews  No  No  Yes
+
+13.4 Professional Services
+
+NovaTech offers professional services for complex implementations:
+
+  • Data migration: Extract, transform, and load data from legacy systems
+  (Jira, Asana, Smartsheet, Excel). Pricing: from €5,000 per migration.
+  • Custom integration development: Build custom integrations using the
+  NovaTech Connector SDK. Pricing: from €15,000 per integration.
+  • Dashboard design: Insight dashboard design and implementation by
+  NovaTech analytics consultants. Pricing: from €8,000 per engagement.
+  • Process consulting: Workflow optimization and best practice
+  implementation. Pricing: from €2,000 per day.
+
+14. Frequently Asked Questions
+
+Q: Can I use NovaTech ProjectHub without NovaTech Insight? A: Yes. Both
+products are licensed independently. However, customers using both products
+benefit from native integration, bundled pricing (15% discount), and the
+enhanced Shared Analytics Dashboard in Insight.
+
+Q: What happens to my data if I downgrade from Professional to
+Starter? A: Data exceeding Starter tier limits enters a 90-day grace period.
+
+===== page 29 =====
+During this period, you can export or delete excess data. After 90 days, the
+oldest data beyond the limits is archived and available for export only (not
+queryable). No data is permanently deleted without explicit customer consent.
+
+Q: Is there a limit on the number of API keys I can create? A: Starter
+accounts can create up to 5 API keys. Professional accounts can create up to 25
+API keys. Enterprise accounts have no limit. Each API key can be scoped to
+specific products and permissions.
+
+Q: How does the Jira integration handle conflicts when the same item is
+updated in both systems? A: By default, the integration uses "last writer wins"
+— the most recent update takes precedence. Enterprise customers can configure
+"source of truth" mode, where one system always takes priority. Conflict events
+are logged in the integration audit log for review.
+
+Q: Can I run NovaTech Insight queries against real-time data? A: Real-
+time data access (sub-30-second latency) is available on the Enterprise tier for
+the native ProjectHub connector and streaming connectors (Kafka, Kinesis). Other
+connectors follow their tier-specific refresh intervals as documented in the Data
+Connectors section.
+
+Q: What is the maximum file size for uploads? A: Individual file uploads are
+limited to 250 MB via the web interface and 1 GB via the API. For larger files,
+use the multipart upload API endpoint which supports files up to 10 GB.
+
+Q: Does NovaTech support multi-language interfaces? A: Yes. The platform
+UI is available in 12 languages: English, German, French, Spanish, Italian,
+Portuguese, Dutch, Swedish, Japanese, Korean, Simplified Chinese, and
+Traditional Chinese. NLQ (Natural Language Query) in Insight currently supports
+English, German, French, Spanish, and Japanese.
+
+Q: How frequently are platform updates released? A: NovaTech follows a
+continuous deployment model. Minor updates and bug fixes are released weekly.
+Major feature releases occur quarterly. Enterprise customers on dedicated or
+hybrid deployments can opt for a controlled release schedule with 2-week
+advance notice.
+
+Q: What is the process for requesting a new integration? A: Customers
+can submit integration requests through the NovaTech Community Forum or via
+their account manager. Requests are evaluated quarterly based on demand and
+strategic alignment. Enterprise customers can also commission custom
+integrations through Professional Services.
+
+===== page 30 =====
+Q: Can I restrict which data centers my data is stored in? A: Starter and
+Professional tier data is stored in the EU (Frankfurt) data center by default.
+Enterprise customers can select their primary data center (Frankfurt, Dublin, US-
+East, or Singapore) and configure the custom data residency add-on for
+additional regional restrictions. Data never leaves the selected region for
+processing or storage.
+
+This document is proprietary to NovaTech Solutions GmbH. For the latest version,
+visit docs.novatech.io or contact your account manager. Document version 4.2,
+January 2026.
