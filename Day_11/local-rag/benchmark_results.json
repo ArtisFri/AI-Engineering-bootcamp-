@@ -188,8 +188,8 @@
     "prompt_tokens": 42,
     "completion_tokens": 42,
     "tokens_per_second": 9.4,
-    "quality_rating": 5,
-    "rating_note": "everything according to instruction."
+    "quality_rating": 2,
+    "rating_note": "Its function keeps characters that are isalnum() and isupper(). That throws away every lowercase letter and every digit, which breaks the ignores case"
   },
   {
     "model": "qwen3.5:2b-q4_K_M",
@@ -220,7 +220,7 @@
     "prompt_tokens": 88,
     "completion_tokens": 11,
     "tokens_per_second": 4.5,
-    "quality_rating": null,
+    "quality_rating": 5,
     "rating_note": "everything according to instruction."
   }
 ]
