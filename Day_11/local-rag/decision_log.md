@@ -5,7 +5,9 @@
 ## Machine
 - **Hardware:** [intel core i5-10310U CPU 1.70GHz, 16 gbs ram, native Ollama ]
 - **`ollama ps` with my main model loaded:**
+- 
  NAME                       ID              SIZE      PROCESSOR    CONTEXT    RUNNER      UNTIL
+
 qwen3.5:4b-q4_K_M          d8b0f5e9760c    3.4 GB    100% CPU     8192       llamacpp    4 minutes from now
 nomic-embed-text:latest    0a109f422b47    389 MB    100% CPU     2048       llamacpp    3 minutes from now 
 

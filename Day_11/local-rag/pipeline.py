@@ -95,7 +95,14 @@ def run_all() -> None:
 
 
 def main() -> None:
-    args = [a for a in sys.argv[1:] if not a.startswith("--")]
+    global OUTPUT_FILE
+    argv = sys.argv[1:]
+    for flag in ("--output", "--test-set"):
+        if flag in argv:
+            i = argv.index(flag)
+            OUTPUT_FILE = argv[i + 1]
+            del argv[i : i + 2]
+    args = [a for a in argv if not a.startswith("--")]
     if args:
         result = answer_question(" ".join(args))
         print("\n--- Retrieved ---")
