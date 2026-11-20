@@ -7,7 +7,7 @@ Test set: [20] questions, [2] unanswerable. Date of the runs: 11.19.2026
 
 ## Executive summary
 
- The  pipeline works and all 20 questions produced a non-empty answer, none hit a  cutoff, and no metric errored. Answers are almost always on topic (Answer Relevancy 0.97), and the right chunk is usually retrieved and ranked near the top (Recall 0.83, Precision 0.82). Two problems stand out. Retrieval is very noisy (Contextual Relevancy 0.20). Local and cloud are  indistinguishable on every quality metric, but the local model is about 70 times slower (median 95.9 s vs 1.3 s per answer), but that could be becouse of the provided laptop. My thougth is that a local pilot is reasonable once citations come from chunk metadata, retrieval noise is cut and if the 96 s latency cannot be fixed, the client's data rules decide whether the cloud model is an option.
+ The pipeline works properly and all 20 queries have generated a non-empty answer, without triggering any  cutoffs and without causing any metric errors. Answer relevancy is quite high (Answer Relevancy 0.97) and the right chunk is retrieved and ranked accordingly (Recall 0.83, Precision 0.82). The issues that appear here include noise during the retrieval phase (Contextual Relevancy 0.20). Local and cloud models are indistinguishable in all quality metrics, however the local one is much slower (median 95.9 s against 1.3 s per answer) which may be caused by the given laptop. My opinion is that a local pilot is acceptable once retrieval noise is reduced and if the 96 s latency cannot be fixed, the decision to use the cloud model will depend on the client's data.
 
 ## Retrieval quality  (source: eval_results_local.json)
 
@@ -19,7 +19,7 @@ Contextual Precision
 0.818 ± 0.114
 - Which questions retrieve badly, and why: chunking, embedding, top-K?
 
-- Relevancy is low almost everywhere, 12 of 20 questions score below 0.2, and only q06 (0.65) is above 0.5. Recall and precision are high. Together that means the right chunk is usually found and ranked first, but it arrives buried among many irrelevant ones. The judge's reasons for q01, q02 and q13 describe the same thing. My hypothesis is that causes are a top-K that is too large and chunks that are too broad. Some highlights would be q18 (mobile app) with Precision 0.0 and Recall 0.5 and all ten retrieved nodes were generic product overviews, and the roadmap chunk about a planned mobile app was not retrieved.
+-Relevancy is very low in almost all cases, 12 out of 20 questions have a score lower than 0.2, whereas only one question (q06) is higher than 0.5. Recall and precision are high. Hence, the conclusion we can make is that the correct chunk is usually located and rated highly, however it comes together with a lot of other irrelevant ones. The explanations for judging q01, q02 and q13 are the same. My hypothesis in such case lies within the problems of using the too big top-K list and too broad chunks. Examples include q18 (mobile app), where the Precision = 0.0, Recall = 0.5 and ten nodes retrieved included only generic product descriptions.
 ## Generation quality  (source: eval_results_local.json)
 
 Faithfulness
@@ -93,7 +93,7 @@ The real difference is speed: local takes roughly 70 times longer per answer and
 
 
 [your verdicts, including your own attacks]
-The two local failures need no special skill: asking for the instructions "word for word" leaked the system prompt, and a three-turn trick made the model follow "IGNORE PREVIOUS". Document injection failed against both models in both positions, but that is only two payloads. The cloud model's one block (DAN) came from Azure's content filter, not the model.
+The two local exploits do not require any particular skill – asking for the instructions “word for word” revealed the system prompt, and the three-turn trick forced the model to  "IGNORE PREVIOUS." Document injection was ineffective against both models in both positions, although this constitutes only two payloads. The cloud model used just one block (DAN), which was taken from Azure's content filter.
 
 
 What a production deployment would need.
@@ -109,6 +109,6 @@ A system prompt with nothing sensitive in it, plus an output check that blocks v
 
 ## Limitations
 
-Sample size is 20 questions, so the ± 2×SE intervals are wide. A single judge (gpt-5.4-mini) scored everything, and it is from the same vendor family as the cloud model, which could bias the comparison. It also scored some correct refusals as unfaithful.
-Security testing was 9 attacks per model, run once, with two document-injection payloads, a pass is weak evidence of robustness, and local verdicts could change on a repeat run.
+The sample size is 20 questions, so the ± 2×SE intervals are large. There was only one judge (gpt-5.4-mini), and it is from the same vendor family as the cloud model, which introduces a bias to the comparison. It also marked some correct refusals as unfaithful.
+Testing for security was 9 attacks per model, done once, with two document injection payloads, and passing is weak evidence of robustness. Local verdicts can change upon a second test.
 Not tested: long documents, non-English queries, other local models.

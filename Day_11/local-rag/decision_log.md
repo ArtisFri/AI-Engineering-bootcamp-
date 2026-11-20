@@ -72,10 +72,10 @@ and
 
 
 ## Observations
-- **What worked well:**q02, q04, q05, q11, q17, q19 and q20 passed and mathematical problems were a highlight, because of the chain of reasoning why it did things that it did, also when information was not in the documents it said so clearly. 
-- **What failed:** When there ware conflict between documents , those often ware not addresed. And answer given based on data from a different table 
+- **What worked well:**q02, q04, q05, q11, q17, q19 and q20 passed and mathematical problems were a highlight, also when information was not in the documents it said so clearly. 
+- **What failed:** When there ware conflict between documents , those often ware not addresed. And answer given based on data from a different table.
 - **Traps I hit:** a 1-character chunk in the first ingest report,first query that was much slower than the rest.
-- **Local vs cloud expectations:** I would expect cloud would be better and more powerful in resolving conflicts between documents.
+- **Local vs cloud expectations:** I would expect cloud would be better and more powerful in resolving conflicts between documents, but in terms of quality of the generation it would not be that different.
 
 ## If I Had More Time / Better Hardware
 I probably would choose a more powerful model, implement /test different chunking methods.
