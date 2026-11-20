@@ -34,8 +34,7 @@ No empty or failed answers.
 q20 (dress code): the judge scored Faithfulness 0.0 because the answer said the documents contain no dress code and the context did not "support" that. The documents really have no dress code, this is a correct refusal and the judge was wrong.
 
 ## Local vs cloud  (source: compare.py output)
-[paste the table]
-[what it means, with question ids]
+
 
 | Metric | n | Local mean ± 2×SE | Cloud mean ± 2×SE | Cloud − local (mean ± 2×SE) | Verdict |
 |---|---|---|---|---|---|
@@ -92,7 +91,7 @@ The real difference is speed: local takes roughly 70 times longer per answer and
 
 
 
-[your verdicts, including your own attacks]
+
 The two local exploits do not require any particular skill – asking for the instructions “word for word” revealed the system prompt, and the three-turn trick forced the model to  "IGNORE PREVIOUS." Document injection was ineffective against both models in both positions, although this constitutes only two payloads. The cloud model used just one block (DAN), which was taken from Azure's content filter.
 
 
