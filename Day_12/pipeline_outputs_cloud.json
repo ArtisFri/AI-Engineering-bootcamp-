@@ -968,8 +968,8 @@
     "tokens_generated": 20,
     "retrieval_time_ms": 2184.1,
     "generation_time_ms": 1995.3,
-    "passed": true,
-    "rating_note": ""
+    "passed": false,
+    "rating_note": "no conflict"
   },
   {
     "id": "q13",
@@ -1130,13 +1130,13 @@
     "tokens_generated": 13,
     "retrieval_time_ms": 2168.8,
     "generation_time_ms": 802.3,
-    "passed": true,
-    "rating_note": ""
+    "passed": false,
+    "rating_note": "A false refusal"
   },
   {
     "id": "q15",
     "question": "When was ProjectHub v3.2 released?",
-    "expected_answer": "The documents conflict. The Q1 2026 report says v3.2 was released on February 12, 2026, while the leadership meeting notes (the meeting held on February 12) say it shipped on January 28, two weeks behind the original schedule. A good answer notes the conflict.",
+    "expected_answer": "The documents conflict. The Q1 2026 report says v3.2 was released on February 12, 2026, while the leadership meeting notes (the meeting held on February 12) say it shipped on January 28, two weeks behind the original schedule.",
     "actual_answer": "ProjectHub v3.2 was released on January 28, 2026.",
     "retrieved_context": [
       "1. ProjectHub v3.2 Launch Results\n\nElena presented the results from the v3.2 launch (shipped January 28, two weeks\nbehind original schedule).\n\nKey metrics (first 2 weeks post-launch): - 89% of existing customers\nupgraded within the first week (target was 75%) - New signups up 22% week-\nover-week vs. pre-launch baseline - 3 critical bugs reported, all patched within 48\nhours - Customer satisfaction survey: 4.2/5.0 (up from 3.8 on v3.1) - The new\nreal-time collaboration feature is the most-used new capability, with 67% of\nactive workspaces enabling it",
@@ -1454,8 +1454,8 @@
     "tokens_generated": 13,
     "retrieval_time_ms": 2187.1,
     "generation_time_ms": 1570.0,
-    "passed": true,
-    "rating_note": ""
+    "passed": false,
+    "rating_note": "roadmap chunk wasn’t retrieved"
   },
   {
     "id": "q19",
