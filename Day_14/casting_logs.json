@@ -1,0 +1,80 @@
+{
+  "execution_summary": {
+    "start_time": "2026-11-23T15:25:36.119717",
+    "end_time": "2026-11-23T15:25:46.591877",
+    "duration_seconds": 10.47,
+    "total_events": 8
+  },
+  "events": [
+    {
+      "timestamp": "2026-11-23T15:25:36.119717",
+      "event_type": "CREW_START",
+      "agent": "System",
+      "details": {
+        "message": "Crew execution started"
+      }
+    },
+    {
+      "timestamp": "2026-11-23T15:25:36.119717",
+      "event_type": "AGENT_INIT",
+      "agent": "Casting Director",
+      "details": {
+        "tools": [
+          "role_matcher",
+          "actor_database_mcp"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-11-23T15:25:36.119717",
+      "event_type": "AGENT_INIT",
+      "agent": "Schedule Coordinator",
+      "details": {
+        "tools": [
+          "availability_checker"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-11-23T15:25:36.119717",
+      "event_type": "TASK_START",
+      "agent": "Casting Director",
+      "details": {
+        "task": "Find actors"
+      }
+    },
+    {
+      "timestamp": "2026-11-23T15:25:36.119717",
+      "event_type": "TASK_START",
+      "agent": "Schedule Coordinator",
+      "details": {
+        "task": "Check availability"
+      }
+    },
+    {
+      "timestamp": "2026-11-23T15:25:46.591877",
+      "event_type": "TASK_COMPLETE",
+      "agent": "Casting Director",
+      "details": {
+        "status": "success"
+      }
+    },
+    {
+      "timestamp": "2026-11-23T15:25:46.591877",
+      "event_type": "TASK_COMPLETE",
+      "agent": "Schedule Coordinator",
+      "details": {
+        "status": "success"
+      }
+    },
+    {
+      "timestamp": "2026-11-23T15:25:46.591877",
+      "event_type": "CREW_END",
+      "agent": "System",
+      "details": {
+        "message": "Crew execution completed",
+        "duration_seconds": 10.47
+      }
+    }
+  ]
+}
