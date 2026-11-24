@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lullaby Loom — Turn their dreams into stories they’ll always remember</title>
+  <style>
+    :root {
+      --ink: #26334a;
+      --muted: #667085;
+      --cream: #fffaf1;
+      --lavender: #eee9ff;
+      --plum: #5b416f;
+      --rose: #f5d7d8;
+      --gold: #e7b86a;
+      --white: #ffffff;
+      --border: #e8e2dc;
+      --shadow: 0 18px 50px rgba(73, 54, 88, 0.12);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--cream);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .container {
+      width: min(1120px, calc(100% - 40px));
+      margin: 0 auto;
+    }
+
+    header {
+      padding: 24px 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 2;
+    }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--plum);
+    }
+
+    .brand-mark {
+      width: 34px;
+      height: 34px;
+      display: grid;
+      place-items: center;
+      border-radius: 50% 50% 45% 45%;
+      background: var(--gold);
+      color: var(--white);
+      font-size: 1.1rem;
+    }
+
+    .nav-link {
+      color: var(--plum);
+      font-size: 0.95rem;
+      font-weight: 700;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 48px;
+      padding: 0 22px;
+      border: 0;
+      border-radius: 999px;
+      background: var(--plum);
+      color: var(--white);
+      font-weight: 800;
+      cursor: pointer;
+      box-shadow: 0 10px 24px rgba(91, 65, 111, 0.2);
+    }
+
+    .button.light {
+      background: var(--white);
+      color: var(--plum);
+    }
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      padding: 150px 0 110px;
+      background:
+        radial-gradient(circle at 84% 20%, rgba(231, 184, 106, 0.38), transparent 18%),
+        radial-gradient(circle at 8% 75%, rgba(245, 215, 216, 0.7), transparent 22%),
+        linear-gradient(135deg, #fffaf1 0%, #f1edff 100%);
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.05fr 0.95fr;
+      align-items: center;
+      gap: 70px;
+    }
+
+    .eyebrow {
+      margin: 0 0 18px;
+      color: var(--plum);
+      font-size: 0.8rem;
+      font-weight: 800;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+
+    h1, h2, h3 {
+      font-family: Georgia, "Times New Roman", serif;
+      line-height: 1.1;
+      margin: 0;
+    }
+
+    h1 {
+      max-width: 650px;
+      font-size: clamp(3.2rem, 7vw, 5.8rem);
+      letter-spacing: -0.055em;
+      color: var(--plum);
+    }
+
+    .hero h2 {
+      max-width: 620px;
+      margin-top: 24px;
+      font-family: inherit;
+      font-size: clamp(1.25rem, 2.5vw, 1.7rem);
+      font-weight: 500;
+      line-height: 1.45;
+    }
+
+    .slogan {
+      margin: 26px 0 32px;
+      color: var(--plum);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 1.3rem;
+      font-style: italic;
+    }
+
+    .hero-art {
+      position: relative;
+      min-height: 430px;
+      display: grid;
+      place-items: center;
+    }
+
+    .moon {
+      width: 285px;
+      height: 285px;
+      border-radius: 50%;
+      background: var(--gold);
+      box-shadow: 0 0 0 24px rgba(231, 184, 106, 0.14), 0 25px 60px rgba(91, 65, 111, 0.15);
+      position: relative;
+    }
+
+    .moon::after {
+      content: "";
+      position: absolute;
+      width: 245px;
+      height: 245px;
+      border-radius: 50%;
+      background: #f1edff;
+      left: 78px;
+      top: -18px;
+    }
+
+    .story-card {
+      position: absolute;
+      width: min(330px, 85%);
+      padding: 26px;
+      border: 1px solid rgba(91, 65, 111, 0.1);
+      border-radius: 22px;
+      background: rgba(255, 255, 255, 0.86);
+      box-shadow: var(--shadow);
+      transform: rotate(-5deg);
+    }
+
+    .story-card small {
+      color: var(--muted);
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .story-card p {
+      margin: 14px 0 0;
+      color: var(--plum);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 1.45rem;
+      line-height: 1.35;
+    }
+
+    section {
+      padding: 100px 0;
+    }
+
+    .section-heading {
+      max-width: 680px;
+      margin-bottom: 42px;
+    }
+
+    .section-heading h2 {
+      color: var(--plum);
+      font-size: clamp(2.25rem, 5vw, 3.8rem);
+      letter-spacing: -0.04em;
+    }
+
+    .section-heading p {
+      margin: 18px 0 0;
+      color: var(--muted);
+      font-size: 1.08rem;
+    }
+
+    .features {
+      background: var(--white);
+    }
+
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 16px;
+    }
+
+    .feature {
+      padding: 25px 20px;
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      background: var(--cream);
+    }
+
+    .feature-icon {
+      width: 42px;
+      height: 42px;
+      display: grid;
+      place-items: center;
+      margin-bottom: 20px;
+      border-radius: 13px;
+      background: var(--lavender);
+      color: var(--plum);
+      font-size: 1.2rem;
+    }
+
+    .feature h3 {
+      color: var(--plum);
+      font-size: 1.25rem;
+    }
+
+    .feature p {
+      margin: 12px 0 0;
+      color: var(--muted);
+      font-size: 0.94rem;
+    }
+
+    .pricing {
+      background: var(--lavender);
+    }
+
+    .pricing-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 22px;
+      align-items: stretch;
+    }
+
+    .price-card {
+      padding: 34px;
+      border: 1px solid rgba(91, 65, 111, 0.14);
+      border-radius: 24px;
+      background: var(--white);
+      box-shadow: 0 14px 35px rgba(91, 65, 111, 0.07);
+    }
+
+    .price-card.premium {
+      background: var(--plum);
+      color: var(--white);
+    }
+
+    .price-card h3 {
+      font-size: 1.8rem;
+      color: var(--plum);
+    }
+
+    .premium h3 {
+      color: var(--white);
+    }
+
+    .price {
+      margin: 18px 0 24px;
+      color: var(--plum);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 2.8rem;
+      font-weight: 700;
+    }
+
+    .premium .price {
+      color: var(--white);
+    }
+
+    .price span {
+      font-family: inherit;
+      font-size: 1rem;
+      font-weight: 400;
+    }
+
+    .price-card ul {
+      margin: 0 0 28px;
+      padding: 0;
+      list-style: none;
+    }
+
+    .price-card li {
+      margin: 12px 0;
+      color: var(--muted);
+    }
+
+    .premium li {
+      color: #eee9f4;
+    }
+
+    .price-card li::before {
+      content: "✦";
+      margin-right: 10px;
+      color: var(--gold);
+    }
+
+    .addons {
+      margin-top: 22px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .closing {
+      padding: 90px 0;
+      text-align: center;
+      background: var(--rose);
+    }
+
+    .closing h2 {
+      max-width: 700px;
+      margin: 0 auto 26px;
+      color: var(--plum);
+      font-size: clamp(2.3rem, 5vw, 4.3rem);
+      letter-spacing: -0.04em;
+    }
+
+    footer {
+      padding: 28px 0;
+      background: var(--plum);
+      color: #eee9f4;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 900px) {
+      .hero-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+      }
+
+      .hero-art {
+        min-height: 350px;
+      }
+
+      .feature-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 620px) {
+      header {
+        position: relative;
+        background: var(--cream);
+      }
+
+      .nav-link {
+        display: none;
+      }
+
+      .hero {
+        padding: 80px 0 70px;
+      }
+
+      .hero-art {
+        min-height: 290px;
+      }
+
+      .moon {
+        width: 210px;
+        height: 210px;
+      }
+
+      .moon::after {
+        width: 180px;
+        height: 180px;
+        left: 58px;
+        top: -14px;
+      }
+
+      .story-card {
+        padding: 20px;
+      }
+
+      .story-card p {
+        font-size: 1.15rem;
+      }
+
+      section {
+        padding: 70px 0;
+      }
+
+      .feature-grid,
+      .pricing-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .price-card {
+        padding: 28px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <a class="brand" href="#top">
+        <span class="brand-mark">✦</span>
+        <span>Lullaby Loom</span>
+      </a>
+      <a class="nav-link" href="#pricing">Pricing</a>
+      <a class="button" href="#signup">Create your first story free</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">A new bedtime tradition</p>
+          <h1>Lullaby Loom</h1>
+          <h2>Lullaby Loom turns a parent’s dreams into safe, personalised bedtime stories that make every night a shared family adventure.</h2>
+          <p class="slogan">“Turn their dreams into stories they’ll always remember.”</p>
+          <a class="button" href="#signup">Create your first story free</a>
+        </div>
+
+        <div class="hero-art" aria-label="A story card beneath a glowing moon">
+          <div class="moon"></div>
+          <div class="story-card">
+            <small>Tonight’s story</small>
+            <p>A family adventure woven from big imaginations, favourite details, and sleepy-time magic.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features" id="features">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Everything for a shared story</p>
+          <h2>Weave a bedtime adventure together.</h2>
+          <p>From a recorded dream to a growing family collection, Lullaby Loom keeps bedtime personal, gentle, and parent-approved.</p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature">
+            <div class="feature-icon">✧</div>
+            <h3>Dream-to-story generation</h3>
+            <p>Record or type a dream and receive a coherent, age-appropriate bedtime story featuring selected family details.</p>
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon">♡</div>
+            <h3>Child profiles</h3>
+            <p>Store each child’s name, age, interests, reading level, fears, and preferred tone for personalisation.</p>
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon">☾</div>
+            <h3>Safety and approval</h3>
+            <p>Detect sensitive content, offer gentle-story mode, remove frightening elements, and require adult approval before sharing.</p>
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon">▤</div>
+            <h3>Bedtime reader</h3>
+            <p>Use a distraction-free story view with downloadable audio narration and adjustable story length.</p>
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon">⌂</div>
+            <h3>Family story archive</h3>
+            <p>Save stories, recurring characters, and favourite themes as part of a growing family collection.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="pricing" id="pricing">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Simple storytelling plans</p>
+          <h2>Start with a story. Keep weaving.</h2>
+          <p>Choose the plan that fits your family’s bedtime ritual.</p>
+        </div>
+
+        <div class="pricing-grid">
+          <article class="price-card">
+            <h3>Free</h3>
+            <div class="price">2 <span>stories per month</span></div>
+            <ul>
+              <li>Dream-to-story generation</li>
+              <li>Personalised bedtime stories</li>
+              <li>Parent approval before sharing</li>
+            </ul>
+            <a class="button" href="#signup">Create your first story free</a>
+          </article>
+
+          <article class="price-card premium">
+            <h3>Premium</h3>
+            <div class="price">$89.99 <span>annual plan</span></div>
+            <ul>
+              <li>15 stories per month</li>
+              <li>Multiple child profiles</li>
+              <li>Audio narration</li>
+              <li>Recurring characters</li>
+              <li>Archive access</li>
+            </ul>
+            <a class="button light" href="#signup">Choose Premium</a>
+            <p class="addons">One-off printable storybook purchases are available as add-ons.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing" id="signup">
+      <div class="container">
+        <h2>Tonight’s bedtime story starts with their dream.</h2>
+        <a class="button" href="mailto:hello@lullabyloom.example">Sign up for Lullaby Loom</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">Lullaby Loom · Shared stories for bedtime</div>
+  </footer>
+</body>
+</html>
